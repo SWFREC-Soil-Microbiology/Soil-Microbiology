@@ -1,0 +1,114 @@
+
+Differential abundance of microbial taxa between samples
+#File Paths
+biom_path <- file.path('data/table_wo_chl_mit_w_tax.biom')
+tree_path <- file.path('data/tree.nwk')
+
+#Import to phyloseq table and merge into phyloseq objects
+table <- import_biom(BIOMfilename = biom_path,
+                      parseFunction = parse_taxonomy_default, 
+                      parallel = T)
+tax_table(table) <-tax_table(table)[,1:7]
+
+tree <- read_tree(tree_path)
+
+psobj <- merge_phyloseq(table,tree)
+sample_data(psobj) <- 
+  plant_data
+    as.data.frame()
+    mutate_if(is.numeric, ~replace_na(.,0))
+    column_to_rownames('X.SampleID')
+
+#Differential abundance
+
+abu <- phyloseq_to_deseq2(psobj, 
+                          design = ~ grove + treatment + season -1)
+
+diagabu <-  DESeq(abu, 
+                  test="Wald", 
+                  fitType="parametric", 
+                  sfType = 'poscounts',
+                  parallel=TRUE,
+                  BPPARAM = MulticoreParam(( parallel::detectCores()-2 )))
+
+alpha = 0.01
+
+#North vs. South grove
+
+res_field = results(diagabu, cooksCutoff = F,
+                             contrast = c('grove', 'North', 'South'))
+
+sigtab_field = res_field[which(res_field$padj < alpha), ]
+head(sigtab_field)
+
+No significant results
+
+#Treatments: Control vs. Cover crop mixture 1 (CC1)
+res_cc = results(diagabu, cooksCutoff = F,
+                             contrast = c('treatment','Control','CC1'))
+
+
+sigtab_cc = res_cc[which(res_cc$padj < alpha), ]
+
+sigtab_cc <- as.data.frame(sigtab_cc)  
+  cbind(as(tax_table(phylobj)[rownames(sigtab_cc), ], "matrix"))
+
+x_bac = tapply(sigtab_cc$log2FoldChange, sigtab_cc$Genus, function(x) max(x))
+x_bac = sort(x_bac, TRUE)
+
+sigtab_cc$Genus = factor(as.character(sigtab_cc$Genus), levels=names(x_bac))
+
+sigtab_cc <- sigtab_cc  
+  drop_na()
+
+ggplot(sigtab_cc, 
+       aes(x=Genus, y=log2FoldChange, color=Phylum)) + 
+  geom_point(aes(size=log10(sigtab_cc$baseMean))) +
+  labs(size='baseMean (log)') +
+  theme_pubclean()+
+  geom_hline(yintercept = 0,linetype=2) +
+  ggtitle('Treatment CC1 (vs control)') + 
+  theme(axis.text.y = element_text(face='italic',size=14), 
+        plot.title = element_text(size=18),
+        legend.text=element_text(size=14), 
+        legend.position = 'right') +
+  facet_grid(Kingdom~., scales = 'free', space='free')+
+  guides(color=guide_legend(ncol=1))+
+  scale_color_viridis_d()+
+  coord_flip()
+
+#Cover crops by grove (North vs. South grove)
+res_bac_fi = results(diagdds, cooksCutoff = F,
+                             contrast = list(c('groveNorth.treatmentCC1')))
+
+
+sigtab_bac_fi = res_bac_fi[which(res_bac_fi$padj < alpha), ]
+
+sigtab_bac_fi <- as.data.frame(sigtab_bac_fi)  
+  cbind(as(tax_table(phylobj)[rownames(sigtab_bac_fi), ], "matrix"))
+
+x_bac_fi = tapply(sigtab_bac_fi$log2FoldChange, sigtab_bac_fi$Genus, function(x) max(x))
+x_bac_fi = sort(x_bac_fi, TRUE)
+
+sigtab_bac_fi$Genus = factor(as.character(sigtab_bac_fi$Genus), levels=names(x_bac_fi))
+
+sigtab_bac_fi <- sigtab_bac_fi  
+  drop_na()
+
+ggplot(sigtab_bac_fi, 
+       aes(x=Genus, y=log2FoldChange, color=Phylum)) + 
+  geom_point(aes(size=log10(sigtab_bac_fi$baseMean))) +
+  labs(size='baseMean (log)') +
+  theme_pubclean()+
+  geom_hline(yintercept = 0,linetype=2) +
+  ggtitle('Differences between CC1 treatment \nin North (vs South)') + 
+  theme(axis.text.y = element_text(face='italic',size=14), 
+        plot.title = element_text(size=18),
+        legend.text=element_text(size=14), 
+        legend.position = 'right') +
+  facet_grid(Kingdom~., scales = 'free', space='free')+
+  guides(color=guide_legend(ncol=1))+
+  scale_color_viridis_d()+
+  coord_flip()
+
+
