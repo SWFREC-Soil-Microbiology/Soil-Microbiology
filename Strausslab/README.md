@@ -5,7 +5,7 @@ Support codes for the bioinformatics projects at SWFREC-University of Florida
 ### Walkthrough notebooks
 * [System preparation with Hipergator](https://andreanuzzo.github.io/Strausslab/Preparation.nb.html)
 
-* [Qiime2 walkthrough: 16S, ITS and merged kingdoms](https://andreanuzzo.github.io/Strausslab/Qiime2_walkthrough.nb.html)
+* [Qiime2 walkthrough: 16S, ITS and merged kingdoms](https://swfrec-soil-microbiology.github.io/Soil-Microbiology/QIIME2_Walkthrough.html)
 
 * [Full notebook](https://andreanuzzo.github.io/Strausslab/Workshop.nb.html) for Phyloseq and Machine Learning analysis
   * John's [Day 1](https://andreanuzzo.github.io/Strausslab/Day1.nb.html)
