@@ -11,7 +11,7 @@ b.	Copy FeatureID column from taxonomy.tsv into a new column in feature-table.ts
 c.	Select both FeatureID columns and select Conditional Formatting > Highlight Cell Rules > Duplicate Values<br>
 d.	Remove any cells that are not selected as duplicates from a copy of the taxonomy file, so rows are not removed from original taxonomy file<br>
 4.	Verify both taxonomy and feature table files are in the same order
-5.	Copy the Taxon column from the feature table file into a column in the feature table file
+5.	Copy the Taxon column from the taxonomy file into a column in the feature table file
 6.	Insert enough columns to the right of the Taxon column so there are enough empty columns for each taxon
 7.	Select the Taxon column > Data > Text to Columns > Delimited > check ‘Semicolon” > Finish
 8.	Copy all columns excluding the feature id column into a new excel file<br>
