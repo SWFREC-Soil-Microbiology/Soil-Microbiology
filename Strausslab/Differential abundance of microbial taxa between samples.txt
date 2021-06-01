@@ -1,114 +1,113 @@
 
 Differential abundance of microbial taxa between samples
+
+#Install packages
+.req_packages <- c("tidyverse", "gridExtra", "ggpubr", "data.table", "GGally",
+                    "ggthemes", "readxl", "janitor", "phyloseq","MASS", "vegan","ade4",
+                    "dummies","caret","BiocParallel","randomForest","DESeq2", "caTools")
+
+.inst <- .req_packages %in% installed.packages()
+if(any(!.inst)) {
+  if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+  BiocManager::install(.req_packages[!.inst], ask = F)
+}
+
 #File Paths
-biom_path <- file.path('data/table_wo_chl_mit_w_tax.biom')
-tree_path <- file.path('data/tree.nwk')
+biom_path <- file.path("~/Desktop/Strawberry/Bacteria/table_wo_chl_mit.biom")
+tree_path <- file.path("~/Desktop/Strawberry/Bacteria/tree.nwk")
+DESEq2_path <- file.path("~/Desktop/Strawberry/Bacteria/DESeq2_w_tax.biom")
+map_path <- file.path("~/Desktop/Strawberry/Bacteria/Metadata.txt")
 
-#Import to phyloseq table and merge into phyloseq objects
+# Import to phyloseq table and merge into phyloseq objects
 table <- import_biom(BIOMfilename = biom_path,
-                      parseFunction = parse_taxonomy_default, 
-                      parallel = T)
+                     #refseqfilename = repseqfile,
+                     parseFunction = parse_taxonomy_default, 
+                     parallel = T)
 tax_table(table) <-tax_table(table)[,1:7]
+DESEq2.table <- import_biom(BIOMfilename = DESEq2_path,
+                            #refseqfilename = repseqfile,
+                            parseFunction = parse_taxonomy_default, 
+                            parallel = T)
 
+tax_table(DESEq2.table) <-tax_table(DESEq2.table)[,1:7]
+metadata <- import_qiime_sample_data(map_path)
 tree <- read_tree(tree_path)
+phylobj <- merge_phyloseq(table, metadata, tree)
+DESEq2.phylobj <- merge_phyloseq(DESEq2.table, metadata, tree)
 
-psobj <- merge_phyloseq(table,tree)
-sample_data(psobj) <- 
-  plant_data
-    as.data.frame()
-    mutate_if(is.numeric, ~replace_na(.,0))
-    column_to_rownames('X.SampleID')
 
-#Differential abundance
+##Differential abundance##
 
-abu <- phyloseq_to_deseq2(psobj, 
-                          design = ~ grove + treatment + season -1)
+#Make a file with the name of the variables you want to compare. In this example I wanted to compare fumigants
+#Taxa whose relative abundance significantly changed between treatments
 
-diagabu <-  DESeq(abu, 
+dds <- phyloseq_to_deseq2(phylobj, 
+                          design = ~ Fumigant)
+
+#This is the test we will use to look for significant differences between treatments
+diagdds <-  DESeq(dds, 
                   test="Wald", 
                   fitType="parametric", 
                   sfType = 'poscounts',
                   parallel=TRUE,
                   BPPARAM = MulticoreParam(( parallel::detectCores()-2 )))
 
+
+
+#Let's compare  Telone vs. Control at the genus level#
+res_bac = results(diagdds, cooksCutoff = F,
+                  contrast = c('Fumigant', 'Control', 'Telone'))
+
+summary(res_bac)
+sum(res_bac$padj < 0.01, na.rm=TRUE)
+
+plotMA(res_bac)
+
 alpha = 0.01
 
-#North vs. South grove
 
-res_field = results(diagabu, cooksCutoff = F,
-                             contrast = c('grove', 'North', 'South'))
+sigtab_cc = res_bac[which(res_bac$padj < alpha), ]
+sigtab_cc = cbind(as(sigtab_cc, "data.frame"), as(tax_table(phylobj)[rownames(sigtab_cc), ], "matrix"))
 
-sigtab_field = res_field[which(res_field$padj < alpha), ]
-head(sigtab_field)
+head(sigtab_cc)
+dim(sigtab_cc)
+summary(sigtab_cc)
 
-No significant results
+theme_set(theme_bw())
+scale_fill_discrete <- function(palname = "Set1", ...) {
+  scale_fill_brewer(palette = palname, ...)
+}
 
-#Treatments: Control vs. Cover crop mixture 1 (CC1)
-res_cc = results(diagabu, cooksCutoff = F,
-                             contrast = c('treatment','Control','CC1'))
+#Here we just tell the program to select genera and to add the names of the corresponding phylum
 
-
-sigtab_cc = res_cc[which(res_cc$padj < alpha), ]
-
-sigtab_cc <- as.data.frame(sigtab_cc)  
-  cbind(as(tax_table(phylobj)[rownames(sigtab_cc), ], "matrix"))
-
-x_bac = tapply(sigtab_cc$log2FoldChange, sigtab_cc$Genus, function(x) max(x))
-x_bac = sort(x_bac, TRUE)
-
-sigtab_cc$Genus = factor(as.character(sigtab_cc$Genus), levels=names(x_bac))
-
-sigtab_cc <- sigtab_cc  
-  drop_na()
-
-ggplot(sigtab_cc, 
-       aes(x=Genus, y=log2FoldChange, color=Phylum)) + 
-  geom_point(aes(size=log10(sigtab_cc$baseMean))) +
-  labs(size='baseMean (log)') +
-  theme_pubclean()+
-  geom_hline(yintercept = 0,linetype=2) +
-  ggtitle('Treatment CC1 (vs control)') + 
-  theme(axis.text.y = element_text(face='italic',size=14), 
-        plot.title = element_text(size=18),
-        legend.text=element_text(size=14), 
-        legend.position = 'right') +
-  facet_grid(Kingdom~., scales = 'free', space='free')+
-  guides(color=guide_legend(ncol=1))+
-  scale_color_viridis_d()+
-  coord_flip()
-
-#Cover crops by grove (North vs. South grove)
-res_bac_fi = results(diagdds, cooksCutoff = F,
-                             contrast = list(c('groveNorth.treatmentCC1')))
+# Phylum order
+x = tapply(sigtab_cc$log2FoldChange, sigtab_cc$Phylum, function(x) max(x))
+x = sort(x, TRUE)
+sigtab_cc$Phylum = factor(as.character(sigtab_cc$Phylum), levels=names(x))
+# Genus order
+x = tapply(sigtab_cc$log2FoldChange, sigtab_cc$Genus, function(x) max(x))
+x = sort(x, TRUE)
+sigtab_cc$Genus = factor(as.character(sigtab_cc$Genus), levels=names(x))
 
 
-sigtab_bac_fi = res_bac_fi[which(res_bac_fi$padj < alpha), ]
+sigtab_cc$Genus <- factor(as.character(sigtab_cc$Genus))
+levels(sigtab_cc$Genus)
 
-sigtab_bac_fi <- as.data.frame(sigtab_bac_fi)  
-  cbind(as(tax_table(phylobj)[rownames(sigtab_bac_fi), ], "matrix"))
+sigtab_cc$Phylum <- factor(as.character(sigtab_cc$Phylum))
+levels(sigtab_cc$Phylum)
 
-x_bac_fi = tapply(sigtab_bac_fi$log2FoldChange, sigtab_bac_fi$Genus, function(x) max(x))
-x_bac_fi = sort(x_bac_fi, TRUE)
+#To make the plot
+bp <- ggplot(sigtab_cc, aes(x=Genus, y=log2FoldChange, color=Phylum)) +
+  geom_point(aes(size=log10(baseMean))) +
+  labs(size='baseMean (log)') + coord_flip() + geom_hline(yintercept = 0,linetype=2) + ggtitle('Fumigant Telone (vs. control) Pre_plant vs. End') + 
+  theme(axis.text.x = element_text(angle = -90, hjust = 0, vjust=0.5, color = 'black'), 
+        axis.text.y = element_text(color = 'black', face = 'italic', size = 8))
 
-sigtab_bac_fi$Genus = factor(as.character(sigtab_bac_fi$Genus), levels=names(x_bac_fi))
-
-sigtab_bac_fi <- sigtab_bac_fi  
-  drop_na()
-
-ggplot(sigtab_bac_fi, 
-       aes(x=Genus, y=log2FoldChange, color=Phylum)) + 
-  geom_point(aes(size=log10(sigtab_bac_fi$baseMean))) +
-  labs(size='baseMean (log)') +
-  theme_pubclean()+
-  geom_hline(yintercept = 0,linetype=2) +
-  ggtitle('Differences between CC1 treatment \nin North (vs South)') + 
-  theme(axis.text.y = element_text(face='italic',size=14), 
-        plot.title = element_text(size=18),
-        legend.text=element_text(size=14), 
-        legend.position = 'right') +
-  facet_grid(Kingdom~., scales = 'free', space='free')+
-  guides(color=guide_legend(ncol=1))+
-  scale_color_viridis_d()+
-  coord_flip()
+bp + scale_x_discrete(limits = rev(levels(sigtab_cc$Genus))) + guides(colour = guide_legend(override.aes = list(size=2)))
 
 
+#To export the plot
+ggsave("Dabundance_Telone_PrevsEnd.jpeg",plot=last_plot(),
+       path="~/Desktop/Strawberry/Bacteria/Genus/",
+       height=5,width=6,units="in",dpi=600)
