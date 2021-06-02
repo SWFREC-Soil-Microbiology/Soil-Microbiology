@@ -36,6 +36,13 @@ tree <- read_tree(tree_path)
 phylobj <- merge_phyloseq(table, metadata, tree)
 DESEq2.phylobj <- merge_phyloseq(DESEq2.table, metadata, tree)
 
+# Adjust taxonomy names (to harmonize between UNITE and SILVA databases)
+tax_table(phylobj) <- gsub(".*__", "", tax_table(phylobj))
+colnames(tax_table(phylobj)) <- c("Kingdom", "Phylum", "Class", 
+                                  "Order", "Family", "Genus", "Species")
+tax_table(DESEq2.phylobj) <- gsub(".*__", "", tax_table(DESEq2.phylobj))
+colnames(tax_table(DESEq2.phylobj)) <- c("Kingdom", "Phylum", "Class", 
+                                         "Order", "Family", "Genus", "Species")
 
 ##Differential abundance##
 
