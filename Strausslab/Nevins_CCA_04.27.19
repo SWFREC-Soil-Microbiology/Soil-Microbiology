@@ -1,0 +1,100 @@
+# Clayton Nevins
+#CCA Model 04/27/19
+
+library(vegan) #Load required package
+
+#### import data ####
+dat_com <- read.csv("D:/M.Sc/CCA/OTUdf.csv", header=TRUE) #Import community data
+rownames(dat_com) <- dat_com[, 1]
+dat_com <- dat_com[, -1] 
+dat_env <- read.csv("D:/M.Sc/CCA/phd_CCA_021919.csv", header=TRUE) #Import environmental data
+rownames(dat_env) <- dat_env[, 1]
+dat_env <- dat_env[, -1] #Necessary to remove the sample IDs
+
+dat_env <- dat_env[, -1] #Removing replicate column from environmental matrix
+dat_env <- dat_env[, -3] #Removing 'description' column. I do not want these variables in the CCA because they are essentially just another sample ID
+dat_env <- dat_env[, -3] #Removing 'description' column. I do not want these variables in the CCA because they are essentially just another sample ID
+
+mycca <- cca(dat_com ~ ., data=dat_env) # formula can be specified (writing out explicitly the variable names) or included all of both matrices as done here
+plot(mycca) # default plot. Red x's are species and cirlces are samples.
+plot(mycca, display=c("cn","bp")) #Plots only variables in environmental matrix
+plot(mycca, display=c("sp", "wa", "bp")) #Plots all again
+
+anova(mycca) #Running anova on model before step-wise reduction in variables. Just for fun.
+ordistep(mycca)
+
+#Removing variables from the environmental matrix that were removed during step-wise reduction
+dat_env <- dat_env[, -1] #Remove depth
+dat_env <- dat_env[, -4] #Remove NO3
+dat_env <- dat_env[, -7] #Remove D15
+dat_env <- dat_env[, -7] #Remove MBC
+dat_env <- dat_env[, -8] #Remove TON
+dat_env <- dat_env[, -8] #Remove mbcmbn
+dat_env <- dat_env[, -8] #Remove CN
+
+mycca2 <- cca(dat_com ~ ., data=dat_env) #Creates new CCA with reduced amount of variables
+
+vif.cca(mycca2) #Checks the Variance Inflation Factor (VIF) for all remaining variables. All VIF should be < 10.
+
+dat_env <- dat_env[, -4] #Remove INN because it has a VIF > 10
+mycca2.1 <- cca(dat_com ~ ., data=dat_env)
+vif.cca(mycca2.1) #Checking VIF again. All VIF should be < 10
+
+dat_env <- dat_env[, -6] #Remove MBN
+#dat_env <- dat_env[, -1] #Remove MBN
+mycca2.2 <- cca(dat_com ~ ., data=dat_env)
+vif.cca(mycca2.2) #All VIF should be < 10
+
+anova(mycca2.2) #Testing for overall significance of the model
+summary(mycca2.2) #Determining the overall constrained variation captured by the model. Need to know the Accumulated contrained eigenvalue proportion explained per axis.
+
+plot(mycca2.2, display=c("bp", "cn"), xlab="CCA1 (34% Variance Explained)", ylab="CCA2 (18% Variance Explained)") #Variance explained is the eigenvalue proportion explained
+
+###############
+#The above script created a CCA figure with only the environmental variables on the figure.
+#The below script will recreate the CCA figure, and add the samples as circles to the figure.
+#There are likely easier ways to accomplish this, but this method works
+###############
+
+#Calling in data again
+dat_com <- read.csv("D:/M.Sc/CCA/OTUdf.csv", header=TRUE)
+rownames(dat_com) <- dat_com[, 1]
+dat_com <- dat_com[, -1] 
+dat_env <- read.csv("D:/M.Sc/CCA/phd_CCA_021919.csv", header=TRUE)
+rownames(dat_env) <- dat_env[, 1]
+dat_env <- dat_env[, -1] #Necessary to remove the sample IDs
+
+dat_env <- dat_env[, -1] #Removing replicate column from environmental matrix
+dat_env <- dat_env[, -3] #Removing 'description' column. I do not want these variables in the CCA because they are essentially just another sample ID
+
+#These variables were removed by the earlier model
+dat_env <- dat_env[, -1] #Remove depth
+dat_env <- dat_env[, -5] #Remove NO3
+dat_env <- dat_env[, -5] #Remove INN
+dat_env <- dat_env[, -7] #Remove D15
+dat_env <- dat_env[, -7] #Remove MBC
+dat_env <- dat_env[, -7] #Remove MBN
+dat_env <- dat_env[, -7] #Remove TON
+dat_env <- dat_env[, -7] #Remove MBC:MBN
+dat_env <- dat_env[, -7] #Remove CN
+
+#Creating new CCA model with the same variables determined to be important at the beginning
+#Plotting the blank CCA figure and adding the sample points and a legend
+mycca3 <- cca(dat_com ~ ., data=dat_env)
+plot(mycca3, type="none", xlab="CCA1 (34% Variance Explained)", ylab="CCA2 (18% Variance Explained)")
+points(scores(mycca3, display="wa"), pch=16, col=dat_env$Layers, cex=1.4)
+ordiellipse(mycca3, dat_env$Layers,label=TRUE, cex=0.7,conf=0.4, col = dat_env$Layers)
+
+#plot(mycca3, type="none", xlab="CCA1 (34% Variance Explained)", ylab="CCA2 (18% Variance Explained)")
+#points(scores(mycca3, display="wa"), pch=16, col=dat_env$Crust, cex=1.4)
+#ordiellipse(mycca3, dat_env$Crust,label=TRUE, cex=0.7,conf=0.4, col = dat_env$Crust)
+
+#ordiellipse(mycca3, dat_env$Layers,label=TRUE,cex=0.7,conf=0.4,col="brown") 
+legend("topleft",
+       pch = rep(16, length(levels(dat_env$Layers))),
+       col = 1:6, # as.numeric(levels(dat_env$DCD)),
+       legend = levels(dat_env$Layers))
+
+#Adding the environmental variables using the previous CCA model. 
+mycca4 <- mycca2.2
+text(mycca4, display="cn", cex=1)
