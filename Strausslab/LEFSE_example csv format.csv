@@ -1,0 +1,888 @@
+Layers,1.B,1.B,1.B,1.C,1.C,1.C,1.B,1.B,1.B,1.C,1.C,1.C
+Crust,Biocrust,Biocrust,Biocrust,Control,Control,Control,Biocrust,Biocrust,Biocrust,Control,Control,Control
+SampleID,S.11A,S.31A,S.51A,S.12A,S.32A,S.52A,S.21A,S.41A,S.61A,S.22A,S.42A,S.62A
+Archaea|Euryarchaeota|Thermoplasmata|Thermoplasmatales|ANT06-05ub archaeonub archaeon,0,0,0,0,0,0,0,0,0,0,0,0
+Archaea|Euryarchaeota|Thermoplasmata|Thermoplasmatales|Terrestrial Miscellaneous GpTMEGAmtAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Archaea|Euryarchaeota|Thermoplasmata|Thermoplasmatales|Terrestrial Miscellaneous GpTMEGub methanogenic archaeonub methanogenic archaeon,0,0,0,0,0,0,0,0,0,0,0,0
+Archaea|Euryarchaeota|Thermoplasmata|Thermoplasmatales|Terrestrial Miscellaneous GpTMEG,0,0,0,0,0,0,0,0,0,0,0,0
+Archaea|Euryarchaeota|Thermoplasmata|Thermoplasmatales,0,0,0,0,0,0,0,0,0,0,0,0
+Archaea|Thaumarchaeota|FHMa11 terrestrial groupub crenarchaeoteub crenarchaeoteub crenarchaeoteub crenarchaeote,0,0,0,0,0,0,0,0,0,0,0,0
+Archaea|Thaumarchaeota|FHMa11 terrestrial groupub thaumarchaeoteub thaumarchaeoteub thaumarchaeoteub thaumarchaeote,0,0,0,0,0,0,0,0,0,0,0,0
+Archaea|Thaumarchaeota|FHMa11 terrestrial group,0,0,0,0,0,0,0,0,0,0,0,0
+Archaea|Thaumarchaeota|Marine Group Iubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Archaea|Thaumarchaeota|Marine Group I,0,0,0,0,0,0,0,0,0,0,0,0
+Archaea|Thaumarchaeota|Soil Crenarchaeotic GroupSCGAmtAmtAmtAmt,0,0,90,0,0,0,0,0,0,0,0,0
+Archaea|Thaumarchaeota|Soil Crenarchaeotic GroupSCG|Unknown Order|Unknown Family|Candidatus Nitrososphaeraub archaeon,0,0,0,0,0,0,0,36,0,0,0,0
+Archaea|Thaumarchaeota|Soil Crenarchaeotic GroupSCG|Unknown Order|Unknown Family|Candidatus Nitrososphaera,0,0,0,0,0,0,0,0,0,0,0,0
+Archaea|Thaumarchaeota|Soil Crenarchaeotic GroupSCGub crenarchaeoteub crenarchaeoteub crenarchaeoteub crenarchaeote,0,0,0,0,0,0,0,0,0,0,0,0
+Archaea|Thaumarchaeota|Soil Crenarchaeotic GroupSCGub euryarchaeoteub euryarchaeoteub euryarchaeoteub euryarchaeote,0,0,0,0,0,0,0,0,0,0,0,0
+Archaea|Thaumarchaeota|Soil Crenarchaeotic GroupSCG,121,245,0,44,123,116,237,365,75,267,393,123
+Archaea|Thaumarchaeota|South African Gold Mine Gp 1SAGMCG-1AmtAmtAmtAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Archaea|Thaumarchaeota|South African Gold Mine Gp 1SAGMCG-1|Unknown Order|Unknown Family|Candidatus Nitrosotaleaub archaeon,0,0,0,0,0,0,0,0,0,0,0,0
+Archaea|Thaumarchaeota|South African Gold Mine Gp 1SAGMCG-1ub thaumarchaeoteub thaumarchaeoteub thaumarchaeoteub thaumarchaeote,0,0,0,0,0,0,0,0,0,0,0,0
+Archaea|Thaumarchaeota|South African Gold Mine Gp 1SAGMCG-1,0,0,0,0,0,0,0,0,0,0,0,0
+Archaea|Woesearchaeota DHVEG-6,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Acidobacteria|Acidobacteriales|Acidobacteriaceae Subgroup 1|Acidobacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Acidobacteria|Acidobacteriales|Acidobacteriaceae Subgroup 1|Edaphobacterub,0,0,0,0,27,0,0,0,13,0,0,0
+Bacteria|Acidobacteria|Acidobacteria|Acidobacteriales|Acidobacteriaceae Subgroup 1|Edaphobacter,0,0,0,0,0,0,0,0,0,0,52,0
+Bacteria|Acidobacteria|Acidobacteria|Acidobacteriales|Acidobacteriaceae Subgroup 1ubub Acidobacteria bacterium,0,0,0,0,0,0,0,0,0,0,17,0
+Bacteria|Acidobacteria|Acidobacteria|Acidobacteriales|Acidobacteriaceae Subgroup 1ubub Acidobacterium sp.,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Acidobacteria|Acidobacteriales|Acidobacteriaceae Subgroup 1ubub forest soil bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Acidobacteria|Acidobacteriales|Acidobacteriaceae Subgroup 1ubub soil bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Acidobacteria|Acidobacteriales|Acidobacteriaceae Subgroup 1ub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Acidobacteria|Acidobacteriales|Acidobacteriaceae Subgroup 1,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Blastocatellia|Blastocatellales|Blastocatellaceae Subgroup 4|11-24ub Acidobacteria bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Blastocatellia|Blastocatellales|Blastocatellaceae Subgroup 4|11-24ub Acidobacteriales bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Blastocatellia|Blastocatellales|Blastocatellaceae Subgroup 4|11-24ub,26,0,0,0,0,0,67,85,0,0,0,0
+Bacteria|Acidobacteria|Blastocatellia|Blastocatellales|Blastocatellaceae Subgroup 4|11-24,78,441,192,0,0,0,165,235,138,0,73,0
+Bacteria|Acidobacteria|Blastocatellia|Blastocatellales|Blastocatellaceae Subgroup 4|Aridibacterub,0,115,0,0,0,0,0,164,0,54,0,0
+Bacteria|Acidobacteria|Blastocatellia|Blastocatellales|Blastocatellaceae Subgroup 4|BlastocatellaAmt,0,0,0,0,0,0,34,161,54,0,0,0
+Bacteria|Acidobacteria|Blastocatellia|Blastocatellales|Blastocatellaceae Subgroup 4|Blastocatellaub Acidobacteria bacterium,0,0,0,0,0,0,0,0,22,41,70,36
+Bacteria|Acidobacteria|Blastocatellia|Blastocatellales|Blastocatellaceae Subgroup 4|Blastocatella,163,213,0,47,51,119,159,0,0,0,0,1
+Bacteria|Acidobacteria|Blastocatellia|Blastocatellales|Blastocatellaceae Subgroup 4|DS-100ub,0,0,0,0,0,0,28,0,0,0,0,0
+Bacteria|Acidobacteria|Blastocatellia|Blastocatellales|Blastocatellaceae Subgroup 4|RB41Amt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Blastocatellia|Blastocatellales|Blastocatellaceae Subgroup 4|RB41ub Acidobacterium sp.,0,0,2,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Blastocatellia|Blastocatellales|Blastocatellaceae Subgroup 4|RB41ub,72,0,0,0,0,0,0,0,209,0,0,0
+Bacteria|Acidobacteria|Blastocatellia|Blastocatellales|Blastocatellaceae Subgroup 4|RB41ub soil bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Blastocatellia|Blastocatellales|Blastocatellaceae Subgroup 4|RB41,267,204,626,0,0,125,57,339,146,105,371,129
+Bacteria|Acidobacteria|Blastocatellia|Blastocatellales|Blastocatellaceae Subgroup 4ubub,0,0,0,0,0,0,0,0,25,0,0,33
+Bacteria|Acidobacteria|Blastocatellia|Blastocatellales|Blastocatellaceae Subgroup 4ub,0,0,0,0,47,61,40,0,0,42,78,0
+Bacteria|Acidobacteria|Blastocatellia|Blastocatellales|Blastocatellaceae Subgroup 4,56,31,0,0,0,0,0,72,0,61,0,0
+Bacteria|Acidobacteria|Holophagae|Holophagales|Holophagaceae,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Holophagae|Subgroup 10|ABS-19ub Acidobacteria bacteriumub Acidobacteria bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Holophagae|Subgroup 10|ABS-19ubub,463,0,0,0,0,0,130,0,74,0,0,0
+Bacteria|Acidobacteria|Holophagae|Subgroup 10|ABS-19,282,0,0,0,56,0,0,106,99,0,58,0
+Bacteria|Acidobacteria|Holophagae|Subgroup 10|CA002,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Holophagae|Subgroup 7,0,0,0,0,0,56,111,36,26,156,0,120
+Bacteria|Acidobacteria|Solibacteres|Solibacterales|Solibacteraceae Subgroup 3|AKIW659ub,0,23,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Solibacteres|Solibacterales|Solibacteraceae Subgroup 3|Bryobacterub Acidobacteria bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Solibacteres|Solibacterales|Solibacteraceae Subgroup 3|Bryobacterub soil bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Solibacteres|Solibacterales|Solibacteraceae Subgroup 3|Bryobacter,0,61,261,271,46,173,0,121,0,444,327,0
+Bacteria|Acidobacteria|Solibacteres|Solibacterales|Solibacteraceae Subgroup 3|Candidatus SolibacterAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Solibacteres|Solibacterales|Solibacteraceae Subgroup 3|Candidatus Solibacter,0,0,0,0,58,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Solibacteres|Solibacterales|Solibacteraceae Subgroup 3|PAUC26f,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Solibacteres|Solibacterales|Solibacteraceae Subgroup 3|Paludibaculumub,0,0,0,66,62,71,0,0,0,42,65,0
+Bacteria|Acidobacteria|Solibacteres|Solibacterales|Solibacteraceae Subgroup 3,0,0,0,0,3,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Subgroup 11,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Subgroup 12ubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Subgroup 13ub Acidobacteria bacteriumub Acidobacteria bacteriumub Acidobacteria bacteriumub Acidobacteria bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Subgroup 13ubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Subgroup 13,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Subgroup 15ubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Subgroup 17,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Subgroup 18ubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Subgroup 22AmtAmtAmtAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Subgroup 22ub Acidobacteriales bacteriumub Acidobacteriales bacteriumub Acidobacteriales bacteriumub Acidobacteriales bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Subgroup 22,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Subgroup 25ub Acidobacteria bacteriumub Acidobacteria bacteriumub Acidobacteria bacteriumub Acidobacteria bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Subgroup 25ubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Subgroup 2ub Acidobacteria bacteriumub Acidobacteria bacteriumub Acidobacteria bacteriumub Acidobacteria bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Subgroup 2ub forest soil bacteriumub forest soil bacteriumub forest soil bacteriumub forest soil bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Subgroup 2,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Subgroup 5AmtAmtAmtAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Subgroup 5ubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Subgroup 5,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Acidobacteria|Subgroup 6ub Acidobacteriales bacteriumub Acidobacteriales bacteriumub Acidobacteriales bacteriumub Acidobacteriales bacterium,0,0,0,0,43,0,0,0,0,0,0,59
+Bacteria|Acidobacteria|Subgroup 6,104,103,274,0,0,81,0,84,0,82,60,0
+Bacteria|Actinobacteria|Acidimicrobiia|Acidimicrobiales|Acidimicrobiaceae|CL500-29 marine groupAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Acidimicrobiia|AcidimicrobialesubAmtAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Acidimicrobiia|Acidimicrobialesubub Actinomycetales bacteriumub Actinomycetales bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Acidimicrobiia|Acidimicrobialesubub actinobacteriumub actinobacterium,0,0,0,0,32,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Acidimicrobiia|Acidimicrobialesub,0,83,163,62,0,147,0,146,0,0,0,0
+Bacteria|Actinobacteria|Acidimicrobiia|Acidimicrobiales,0,0,0,0,0,0,0,0,0,0,0,367
+Bacteria|Actinobacteria|Actinobacteria|Corynebacteriales|Mycobacteriaceae|Mycobacterium|Mycobacterium intracellulare,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Actinobacteria|Corynebacteriales|Mycobacteriaceae|Mycobacterium,118,158,106,143,62,95,150,0,114,145,57,0
+Bacteria|Actinobacteria|Actinobacteria|Corynebacteriales|Nocardiaceae|RhodococcusAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Actinobacteria|Frankiales|Acidothermaceae|Acidothermusub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Actinobacteria|Frankiales|Acidothermaceae|Acidothermus,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Actinobacteria|Frankiales|Frankiaceae|Jatrophihabitansub,0,0,0,272,286,468,0,0,69,132,396,296
+Bacteria|Actinobacteria|Actinobacteria|Frankiales|Geodermatophilaceae|BlastococcusAmt,0,0,0,87,0,0,0,0,0,30,0,0
+Bacteria|Actinobacteria|Actinobacteria|Frankiales|Geodermatophilaceae|Blastococcusub,0,0,0,0,0,0,0,0,0,86,0,0
+Bacteria|Actinobacteria|Actinobacteria|Frankiales|Geodermatophilaceae|Blastococcus,0,0,0,2,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Actinobacteria|Frankiales|Geodermatophilaceae|Geodermatophilusub,0,0,0,196,0,0,223,0,0,142,123,82
+Bacteria|Actinobacteria|Actinobacteria|Frankiales|Geodermatophilaceae|Geodermatophilus,0,0,203,122,161,0,0,0,0,87,164,2
+Bacteria|Actinobacteria|Actinobacteria|Frankiales|Geodermatophilaceae|Modestobacter,0,0,0,0,0,0,0,0,0,74,0,0
+Bacteria|Actinobacteria|Actinobacteria|Frankialesububub,0,0,0,75,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Actinobacteria|Frankiales,0,0,0,14,0,0,0,0,0,0,0,224
+Bacteria|Actinobacteria|Actinobacteria|Kineosporiales|Kineosporiaceae,0,86,0,1,0,56,0,0,0,234,136,97
+Bacteria|Actinobacteria|Actinobacteria|Micrococcales|Intrasporangiaceae|JanibacterAmt,0,0,0,0,0,0,0,0,0,88,0,0
+Bacteria|Actinobacteria|Actinobacteria|Micrococcales|Intrasporangiaceae|Janibacter,0,0,0,53,41,0,0,0,0,0,0,223
+Bacteria|Actinobacteria|Actinobacteria|Micrococcales|Intrasporangiaceae|TerrabacterAmt,0,0,0,0,0,0,0,0,0,0,92,0
+Bacteria|Actinobacteria|Actinobacteria|Micrococcales|Intrasporangiaceae|Terrabacter,136,0,0,0,0,0,108,0,44,0,0,0
+Bacteria|Actinobacteria|Actinobacteria|Micrococcales|Intrasporangiaceae,0,0,236,0,35,0,0,0,0,163,0,0
+Bacteria|Actinobacteria|Actinobacteria|Micrococcales|Microbacteriaceae|Amnibacteriumub,0,0,0,68,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Actinobacteria|Micrococcales|Microbacteriaceae|Microbacterium,90,104,166,0,0,0,67,0,0,148,0,0
+Bacteria|Actinobacteria|Actinobacteria|Micrococcales|Microbacteriaceae,0,0,0,0,0,0,0,0,0,65,0,0
+Bacteria|Actinobacteria|Actinobacteria|Micrococcales|Micrococcaceae|PaenarthrobacterAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Actinobacteria|Micrococcales|Micrococcaceae|SinomonasAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Actinobacteria|Micrococcales|Micrococcaceae,133,0,0,0,0,0,0,0,103,74,129,105
+Bacteria|Actinobacteria|Actinobacteria|Micromonosporales|MicromonosporaceaeAmtAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Actinobacteria|Micromonosporales|Micromonosporaceae|Actinoplanes,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Actinobacteria|Micromonosporales|Micromonosporaceae|MicromonosporaAmt,0,0,0,0,0,0,0,85,0,0,0,0
+Bacteria|Actinobacteria|Actinobacteria|Micromonosporales|Micromonosporaceae|Micromonospora,0,0,0,0,0,0,0,0,106,0,0,0
+Bacteria|Actinobacteria|Actinobacteria|Micromonosporales|Micromonosporaceae,0,193,253,0,0,0,0,102,90,127,74,134
+Bacteria|Actinobacteria|Actinobacteria|Propionibacteriales|Nocardioidaceae|AeromicrobiumAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Actinobacteria|Propionibacteriales|Nocardioidaceae|Aeromicrobium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Actinobacteria|Propionibacteriales|Nocardioidaceae|KribbellaAmt,0,0,0,0,0,0,0,0,140,0,0,0
+Bacteria|Actinobacteria|Actinobacteria|Propionibacteriales|Nocardioidaceae|Marmoricolaub,0,92,255,79,0,0,69,0,167,30,84,64
+Bacteria|Actinobacteria|Actinobacteria|Propionibacteriales|Nocardioidaceae|Marmoricola,0,0,0,0,77,0,0,0,0,103,119,0
+Bacteria|Actinobacteria|Actinobacteria|Propionibacteriales|Nocardioidaceae|NocardioidesAmt,94,0,201,0,0,0,176,0,168,110,0,0
+Bacteria|Actinobacteria|Actinobacteria|Propionibacteriales|Nocardioidaceae|Nocardioidesub,0,0,0,0,0,0,69,0,0,0,0,0
+Bacteria|Actinobacteria|Actinobacteria|Propionibacteriales|Nocardioidaceae|Nocardioidesub organism,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Actinobacteria|Propionibacteriales|Nocardioidaceae|Nocardioides,307,0,0,0,99,0,251,0,71,288,0,210
+Bacteria|Actinobacteria|Actinobacteria|Propionibacteriales|Nocardioidaceae,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Actinobacteria|Propionibacteriales|Propionibacteriaceae|Microlunatusub,122,155,228,0,0,0,134,0,201,0,0,0
+Bacteria|Actinobacteria|Actinobacteria|Pseudonocardiales|Pseudonocardiaceae|Crossiellaub,0,0,0,0,143,52,35,0,0,0,83,57
+Bacteria|Actinobacteria|Actinobacteria|Pseudonocardiales|Pseudonocardiaceae|Crossiella,0,0,0,0,0,0,0,0,0,0,0,2
+Bacteria|Actinobacteria|Actinobacteria|Pseudonocardiales|Pseudonocardiaceae|Pseudonocardiaub,0,0,0,0,0,0,0,0,0,0,72,0
+Bacteria|Actinobacteria|Actinobacteria|Pseudonocardiales|Pseudonocardiaceae|Pseudonocardia,0,0,100,0,0,0,18,0,157,0,0,40
+Bacteria|Actinobacteria|Actinobacteria|Pseudonocardiales|Pseudonocardiaceae,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Actinobacteria|Streptomycetales|Streptomycetaceae|Streptomyces,139,0,0,0,0,0,0,157,225,0,84,146
+Bacteria|Actinobacteria|Actinobacteria|Streptomycetales|Streptomycetaceae,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Actinobacteria|Streptosporangiales|Thermomonosporaceae|ActinoallomurusAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Actinobacteria,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|MB-A2-108AmtAmtAmtAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|MB-A2-108ub Micromonospora sp.ub Micromonospora sp.ub Micromonospora sp.ub Micromonospora sp.,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|MB-A2-108ub actinobacteriumub actinobacteriumub actinobacteriumub actinobacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|MB-A2-108ubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|MB-A2-108,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Rubrobacteria|Rubrobacterales|Rubrobacteriaceae|RubrobacterAmt,0,0,137,0,0,0,0,56,0,0,0,0
+Bacteria|Actinobacteria|Rubrobacteria|Rubrobacterales|Rubrobacteriaceae|Rubrobacter,0,44,0,0,0,0,0,0,37,0,0,0
+Bacteria|Actinobacteria|TakashiAC-B11ubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Thermoleophilia|Gaiellales|Gaiellaceae|GaiellaAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Thermoleophilia|Gaiellales|Gaiellaceae|Gaiellaub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Thermoleophilia|Gaiellales|Gaiellaceae|Gaiella,0,0,101,90,0,0,0,86,0,0,0,0
+Bacteria|Actinobacteria|Thermoleophilia|GaiellalesubAmtAmt,0,0,0,162,244,91,0,0,0,210,259,353
+Bacteria|Actinobacteria|Thermoleophilia|Gaiellalesubub Solirubrobacter sp.ub Solirubrobacter sp.,0,0,0,0,0,0,0,0,0,0,0,129
+Bacteria|Actinobacteria|Thermoleophilia|Gaiellalesubub organismub organism,35,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Thermoleophilia|Gaiellalesub,0,0,0,171,0,74,19,0,0,0,111,492
+Bacteria|Actinobacteria|Thermoleophilia|Gaiellales,0,0,0,0,0,0,51,0,0,0,0,175
+Bacteria|Actinobacteria|Thermoleophilia|Solirubrobacterales|0319-6M6ubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Thermoleophilia|Solirubrobacterales|0319-6M6,0,0,0,0,0,111,0,0,0,0,0,246
+Bacteria|Actinobacteria|Thermoleophilia|Solirubrobacterales|288-2ubub,0,0,211,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Thermoleophilia|Solirubrobacterales|Conexibacteraceae|Conexibacterub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Thermoleophilia|Solirubrobacterales|Elev-16S-1332AmtAmt,0,2,4,0,0,0,84,0,0,0,0,0
+Bacteria|Actinobacteria|Thermoleophilia|Solirubrobacterales|Elev-16S-1332ub actinobacteriumub actinobacterium,2,0,86,0,0,0,0,157,0,0,0,0
+Bacteria|Actinobacteria|Thermoleophilia|Solirubrobacterales|Elev-16S-1332ubub,211,135,0,0,0,0,88,318,0,0,48,108
+Bacteria|Actinobacteria|Thermoleophilia|Solirubrobacterales|Elev-16S-1332,0,83,64,0,51,0,0,135,4,104,51,0
+Bacteria|Actinobacteria|Thermoleophilia|Solirubrobacterales|FCPU744ubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Thermoleophilia|Solirubrobacterales|FFCH11085ubub,0,78,0,0,0,0,62,0,51,0,0,0
+Bacteria|Actinobacteria|Thermoleophilia|Solirubrobacterales|Gsoil-1167ubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Thermoleophilia|Solirubrobacterales|Solirubrobacteraceae|Solirubrobacterub,0,0,0,0,0,0,96,0,0,187,147,177
+Bacteria|Actinobacteria|Thermoleophilia|Solirubrobacterales|Solirubrobacteraceae|Solirubrobacter,145,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Thermoleophilia|Solirubrobacterales|TM146AmtAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Actinobacteria|Thermoleophilia|Solirubrobacterales|YNPFFP1ubub,0,0,0,0,0,66,0,0,0,160,163,130
+Bacteria|Actinobacteria|Thermoleophilia|Solirubrobacteralesububub,0,0,0,74,0,0,0,0,0,76,61,0
+Bacteria|Actinobacteria|Thermoleophilia|Solirubrobacterales,0,0,0,0,0,0,0,0,0,0,67,0
+Bacteria|Armatimonadetes|Armatimonadia|Armatimonadalesub Armatimonadetes bacteriumub Armatimonadetes bacteriumub Armatimonadetes bacterium,0,0,0,0,0,0,92,0,0,0,0,0
+Bacteria|Armatimonadetes|Armatimonadia|Armatimonadalesububub,0,0,52,0,72,0,0,0,27,0,48,0
+Bacteria|Armatimonadetes|Chthonomonadetes|Chthonomonadales|Chthonomonadaceae|Chthonomonasub Armatimonadetes bacterium,0,0,0,0,0,0,25,0,0,0,0,0
+Bacteria|Armatimonadetes|Chthonomonadetes|Chthonomonadales|Chthonomonadaceae|Chthonomonasub,0,0,0,0,0,0,0,24,0,0,37,0
+Bacteria|Armatimonadetes|Chthonomonadetes|Chthonomonadalesububub,0,0,0,0,54,0,0,0,0,38,0,0
+Bacteria|Armatimonadetes|Fimbriimonadia|Fimbriimonadales|Fimbriimonadaceaeub Armatimonadetes bacteriumub Armatimonadetes bacterium,0,0,0,0,0,0,6,0,0,0,0,0
+Bacteria|Armatimonadetes|Fimbriimonadia|Fimbriimonadales|Fimbriimonadaceaeubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Armatimonadetes|Fimbriimonadia|Fimbriimonadales|Fimbriimonadaceae,0,0,0,0,34,0,0,0,0,0,149,0
+Bacteria|Armatimonadetesububububub,0,0,0,0,0,42,6,0,0,0,0,0
+Bacteria|Armatimonadetesubub soil bacteriumub soil bacteriumub soil bacteriumub soil bacterium,0,0,0,0,0,0,0,7,0,0,0,0
+Bacteria|Armatimonadetesub,0,0,0,0,33,43,0,0,0,0,0,0
+Bacteria|BJ-169ububububub,0,0,0,0,0,0,0,0,18,0,22,87
+Bacteria|BRC1ububububub,0,5,0,0,0,0,0,0,13,0,20,11
+Bacteria|Bacteroidetes|Bacteroidetes Incertae Sedis|Order II|Rhodothermaceae|Rubrivirgaub,0,0,16,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Bacteroidetes Incertae Sedis|Order II|Rhodothermaceaeubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Bacteroidetes Incertae Sedis|Order II|Rhodothermaceaeubub Bacteroidetes bacterium,0,13,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Bacteroidetes Incertae Sedis|Order II|Rhodothermaceae,8,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Cytophagia|Cytophagales|Cyclobacteriaceaeubub Bacteroidetes bacterium,67,178,100,0,0,0,58,99,31,0,0,0
+Bacteria|Bacteroidetes|Cytophagia|Cytophagales|Cytophagaceae|AdhaeribacterAmt,0,0,0,0,0,0,0,0,0,33,0,0
+Bacteria|Bacteroidetes|Cytophagia|Cytophagales|Cytophagaceae|Chryseolineaub,0,69,121,0,0,0,118,92,66,0,0,0
+Bacteria|Bacteroidetes|Cytophagia|Cytophagales|Cytophagaceae|DyadobacterAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Cytophagia|Cytophagales|Cytophagaceae|EmticiciaAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Cytophagia|Cytophagales|Cytophagaceae|FibrellaAmt,0,0,45,0,0,0,0,0,50,0,0,0
+Bacteria|Bacteroidetes|Cytophagia|Cytophagales|Cytophagaceae|Fibrisomaub,91,0,0,0,0,0,66,0,0,0,0,0
+Bacteria|Bacteroidetes|Cytophagia|Cytophagales|Cytophagaceae|HymenobacterAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Cytophagia|Cytophagales|Cytophagaceae|Hymenobacter|Hymenobacter ocellatus,0,0,0,0,0,0,0,0,28,0,0,0
+Bacteria|Bacteroidetes|Cytophagia|Cytophagales|Cytophagaceae|Hymenobacterub Bacteroidetes bacterium,0,9,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Cytophagia|Cytophagales|Cytophagaceae|Hymenobacter,0,0,0,0,0,0,0,0,0,0,7,0
+Bacteria|Bacteroidetes|Cytophagia|Cytophagales|Cytophagaceae|Larkinellaub,106,0,0,0,0,0,22,0,0,0,39,0
+Bacteria|Bacteroidetes|Cytophagia|Cytophagales|Cytophagaceae|Ohtaekwangiaub,0,63,0,0,0,0,22,70,12,0,0,0
+Bacteria|Bacteroidetes|Cytophagia|Cytophagales|Cytophagaceae|Rhodocytophagaub Bacteroidetes bacterium,21,0,0,0,0,0,0,0,10,0,0,0
+Bacteria|Bacteroidetes|Cytophagia|Cytophagales|Cytophagaceae|Rhodocytophagaub,23,0,0,0,0,0,22,12,0,0,0,0
+Bacteria|Bacteroidetes|Cytophagia|Cytophagales|Cytophagaceae|Rudanellaub,57,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Cytophagia|Cytophagales|Cytophagaceae|Siphonobacterub,79,0,0,0,0,0,72,6,0,0,0,0
+Bacteria|Bacteroidetes|Cytophagia|Cytophagales|Cytophagaceae|SpirosomaAmt,0,14,52,0,0,0,59,0,0,129,0,0
+Bacteria|Bacteroidetes|Cytophagia|Cytophagales|Cytophagaceae|Spirosomaub,129,70,119,0,0,0,0,0,104,0,0,0
+Bacteria|Bacteroidetes|Cytophagia|Cytophagales|Cytophagaceae|Spirosoma,28,0,0,0,0,0,0,0,2,0,0,0
+Bacteria|Bacteroidetes|Cytophagia|Cytophagales|Cytophagaceae|Sporocytophagaub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Cytophagia|Cytophagales|Cytophagaceaeubub Bacteroidetes bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Cytophagia|Cytophagales|Cytophagaceaeub,131,111,0,18,0,0,88,60,71,16,0,0
+Bacteria|Bacteroidetes|Cytophagia|Cytophagales|Cytophagaceae,29,65,221,0,0,0,0,105,0,0,0,0
+Bacteria|Bacteroidetes|Cytophagia|Cytophagales,0,0,0,0,0,0,0,3,0,0,10,0
+Bacteria|Bacteroidetes|Flavobacteriia|Flavobacteriales|Blattabacteriaceae|Candidatus Uzinuraub Bacteroidetes bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Flavobacteriia|Flavobacteriales|Cryomorphaceae|Crocinitomixub,0,6,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Flavobacteriia|Flavobacteriales|Cryomorphaceae|Fluviicolaub,0,0,23,0,0,0,0,0,11,0,0,0
+Bacteria|Bacteroidetes|Flavobacteriia|Flavobacteriales|Flavobacteriaceae|ChryseobacteriumAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Flavobacteriia|Flavobacteriales|Flavobacteriaceae|Chryseobacteriumub,0,0,0,0,0,0,13,0,0,0,0,0
+Bacteria|Bacteroidetes|Flavobacteriia|Flavobacteriales|Flavobacteriaceae|Chryseobacterium,19,0,0,0,0,0,0,0,19,0,0,0
+Bacteria|Bacteroidetes|Flavobacteriia|Flavobacteriales|Flavobacteriaceae|Flavobacteriumub Bacteroidetes bacterium,0,0,57,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Flavobacteriia|Flavobacteriales|Flavobacteriaceae|Flavobacterium,0,77,0,0,0,0,0,0,35,0,0,0
+Bacteria|Bacteroidetes|Flavobacteriia|Flavobacteriales|Flavobacteriaceae,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Flavobacteriia|Flavobacteriales|NS9 marine groupubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Flavobacteriia|Flavobacteriales,0,0,0,0,0,0,0,0,21,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|AKYH767ubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|CWT CU03-E12ubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Chitinophagaceae|ChitinophagaAmt,0,0,0,0,0,0,0,0,119,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Chitinophagaceae|Cnuellaub,0,0,128,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Chitinophagaceae|Ferruginibacter,0,126,0,0,0,0,0,0,0,0,0,43
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Chitinophagaceae|Flavisolibacterub Bacteroidetes bacterium,0,0,0,0,0,0,0,0,24,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Chitinophagaceae|Flavisolibacterub Flavisolibacter sp.,0,3,0,0,0,0,0,0,0,0,122,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Chitinophagaceae|Flavisolibacter,174,32,48,275,340,339,0,127,0,147,206,145
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Chitinophagaceae|Flavitaleaub,0,188,147,0,0,0,148,73,121,114,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Chitinophagaceae|Flavitalea,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Chitinophagaceae|Parafilimonasub,0,0,0,0,224,189,0,0,0,0,155,90
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Chitinophagaceae|Parafilimonas,0,0,0,0,0,0,0,0,0,0,5,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Chitinophagaceae|Sediminibacterium,0,0,0,0,0,0,56,0,0,191,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Chitinophagaceae|Segetibacterub,0,0,59,0,0,0,0,0,0,103,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Chitinophagaceae|Segetibacter,0,0,0,0,0,0,0,0,0,29,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Chitinophagaceae|Taibaiellaub,0,26,0,0,0,0,0,0,35,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Chitinophagaceae|Terrimonasub Chitinophagaceae bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Chitinophagaceae|Terrimonas,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|ChitinophagaceaeubAmt,46,0,0,0,0,0,47,0,0,0,0,51
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Chitinophagaceaeubub Bacteroidetes bacterium,0,0,0,0,0,46,0,68,0,0,118,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Chitinophagaceaeubub,0,0,0,0,0,0,0,109,0,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Chitinophagaceaeubub soil bacterium,0,84,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Chitinophagaceaeub,69,170,42,0,42,79,149,224,121,73,219,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Chitinophagaceae,131,110,42,0,164,0,70,103,179,90,227,42
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|FFCH9454ubub,0,0,0,0,25,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|KD3-93ubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|NS11-12 marine groupubub,6,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|PHOS-HE51ubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|PHOS-HE51,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Saprospiraceae|Lewinella,0,0,0,0,0,0,0,14,0,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Saprospiraceae|Phaeodactylibacterub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|SaprospiraceaeubAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Saprospiraceaeubub,0,0,0,0,0,0,32,0,0,0,59,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Saprospiraceaeubub soil bacterium,0,0,0,0,0,0,55,0,0,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Saprospiraceaeub,0,29,0,0,0,0,0,0,0,57,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Saprospiraceae,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Sphingobacteriaceae|Arcticibacterub,0,47,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Sphingobacteriaceae|Mucilaginibacter,0,0,24,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Sphingobacteriaceae|Pedobacter,63,0,0,0,0,0,0,0,75,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|Sphingobacteriaceae,0,87,0,0,0,0,0,0,49,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|env.OPS 17ub Bacteroidetes bacteriumub Bacteroidetes bacterium,0,0,0,18,26,0,0,0,0,0,0,62
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|env.OPS 17ubub,0,0,0,0,0,0,0,0,0,19,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales|env.OPS 17,44,85,0,0,0,0,0,65,17,0,42,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacterialesubub Bacteroidetes bacteriumub Bacteroidetes bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacterialesubub Saprospiraceae bacteriumub Saprospiraceae bacterium,0,5,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacterialesubub Sphingobacteriales bacteriumub Sphingobacteriales bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacterialesubub soil bacteriumub soil bacterium,0,0,0,0,0,0,0,0,0,0,0,23
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacterialesub,0,0,0,0,0,0,0,0,0,0,34,0
+Bacteria|Bacteroidetes|Sphingobacteriia|Sphingobacteriales,0,0,0,0,0,0,0,0,0,0,0,3
+Bacteria|Bacteroidetes,0,39,0,0,0,0,15,0,29,0,0,0
+Bacteria|Candidatus Berkelbacteriaububububub,0,0,0,0,10,0,0,0,0,0,0,0
+Bacteria|Candidatus Berkelbacteriaub soil bacteriumub soil bacteriumub soil bacteriumub soil bacteriumub soil bacterium,0,0,0,24,39,0,0,0,0,0,0,29
+Bacteria|Candidatus Berkelbacteria,0,20,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chlamydiae|Chlamydiae|Chlamydiales|Chlamydiaceaeub Chlamydiales bacteriumub Chlamydiales bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chlamydiae|Chlamydiae|Chlamydiales|Parachlamydiaceae|Candidatus ProtochlamydiaAmt,230,51,29,0,0,0,0,0,0,0,95,39
+Bacteria|Chlamydiae|Chlamydiae|Chlamydiales|Parachlamydiaceae|Candidatus Protochlamydia,0,0,0,0,0,0,0,0,102,0,0,0
+Bacteria|Chlamydiae|Chlamydiae|Chlamydiales|Parachlamydiaceae,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chlamydiae|Chlamydiae|Chlamydiales|Simkaniaceaeubub Chlamydiales bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chlamydiae|Chlamydiae|Chlamydiales|Simkaniaceaeubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chlamydiae|Chlamydiae|Chlamydiales|Simkaniaceaeub,3,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chlamydiae|Chlamydiae|Chlamydiales|cvE6ubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chlamydiae|Chlamydiae|Chlamydiales,0,0,0,0,0,0,69,0,0,0,0,0
+Bacteria|Chlorobi|Chlorobia|Chlorobiales|OPB56AmtAmt,0,35,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chlorobi|Chlorobia|Chlorobiales|OPB56ub KF-JG30-B11ub KF-JG30-B11,0,0,0,0,24,12,0,0,0,0,34,0
+Bacteria|Chlorobi|Chlorobia|Chlorobiales|OPB56ubub,0,14,0,41,0,0,0,0,23,0,49,0
+Bacteria|Chlorobi|Chlorobia|Chlorobiales|OPB56,56,0,0,0,0,0,0,45,0,8,0,0
+Bacteria|Chlorobi|Chlorobia|Chlorobiales|SJA-28ub Ignavibacterium sp.ub Ignavibacterium sp.,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chlorobi|Chlorobia|Chlorobiales|SJA-28ubub,100,0,0,0,0,0,18,130,0,0,0,0
+Bacteria|Chlorobi|Chlorobia|Chlorobiales|SJA-28,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|Anaerolineae|Anaerolineales|Anaerolineaceaeubub Anaerolineaceae bacterium,42,0,52,0,0,0,0,32,0,0,0,0
+Bacteria|Chloroflexi|Anaerolineae|Anaerolineales|Anaerolineaceaeubub Bellilinea sp.,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|Anaerolineae|Anaerolineales|Anaerolineaceaeubub Caldilineaceae bacterium,127,56,36,0,0,0,108,33,89,0,0,0
+Bacteria|Chloroflexi|Anaerolineae|Anaerolineales|Anaerolineaceaeubub Gemmatimonadetes bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|Anaerolineae|Anaerolineales|Anaerolineaceaeubub compost bacterium,0,0,0,0,0,0,44,0,0,0,0,0
+Bacteria|Chloroflexi|Anaerolineae|Anaerolineales|Anaerolineaceaeubub prokaryote,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|Anaerolineae|Anaerolineales|Anaerolineaceaeubub sludge bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|Anaerolineae|Anaerolineales|Anaerolineaceaeubub sludge bacterium H8,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|Anaerolineae|Anaerolineales|Anaerolineaceaeubub sludge bacterium S14,227,189,0,0,0,0,71,0,0,0,0,0
+Bacteria|Chloroflexi|Anaerolineae|Anaerolineales|Anaerolineaceaeubub soil bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|Anaerolineae|Anaerolineales|Anaerolineaceaeub,281,0,20,0,0,27,35,273,89,0,0,0
+Bacteria|Chloroflexi|Anaerolineae|Anaerolineales|Anaerolineaceae,4,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|Ardenticatenia|Ardenticatenalesububub,29,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|Ardenticatenia|Ardenticatenales,0,0,0,0,0,0,0,159,0,0,0,0
+Bacteria|Chloroflexi|Ardenticateniaubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|Ardenticateniaub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|Caldilineae|Caldilineales|Caldilineaceae|Litorilineaub,0,0,0,0,0,0,0,97,10,0,0,0
+Bacteria|Chloroflexi|Caldilineae|Caldilineales|Caldilineaceaeubub,52,0,0,0,0,0,0,87,8,0,0,0
+Bacteria|Chloroflexi|Chloroflexi Incertae Sedis|Unknown Order|Unknown Family|Thermobaculumub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|Chloroflexia|Chloroflexales|Chloroflexaceae|Candidatus Chloroplocaub,306,0,0,0,0,0,341,0,43,0,0,0
+Bacteria|Chloroflexi|Chloroflexia|Chloroflexales|Chloroflexaceae|Chloronemaub,42,0,0,0,0,0,136,64,0,0,0,0
+Bacteria|Chloroflexi|Chloroflexia|Chloroflexales|Chloroflexaceae|Chloronema,0,0,0,0,0,0,42,0,0,0,0,0
+Bacteria|Chloroflexi|Chloroflexia|Chloroflexales|FFCH7168ubub,123,55,0,0,0,0,0,161,0,0,11,0
+Bacteria|Chloroflexi|Chloroflexia|Chloroflexales|Oscillochloridaceae|Oscillochloris,0,0,0,0,0,0,91,0,0,0,0,0
+Bacteria|Chloroflexi|Chloroflexia|Chloroflexales|Roseiflexaceae|RoseiflexusAmt,157,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|Chloroflexia|Chloroflexales|Roseiflexaceae|Roseiflexusub Chloroflexi bacterium,0,52,15,0,209,95,0,0,38,247,35,152
+Bacteria|Chloroflexi|Chloroflexia|Chloroflexales|Roseiflexaceae|Roseiflexusub,72,67,24,0,0,133,206,0,0,55,0,40
+Bacteria|Chloroflexi|Chloroflexia|Chloroflexales|Roseiflexaceae|Roseiflexus,175,114,17,0,0,0,165,22,55,0,0,0
+Bacteria|Chloroflexi|Chloroflexia|Herpetosiphonales|Herpetosiphonaceae|HerpetosiphonAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|Chloroflexia|Herpetosiphonales|Herpetosiphonaceae|Herpetosiphonub,0,0,0,0,0,0,22,0,0,0,0,0
+Bacteria|Chloroflexi|Chloroflexia|Kallotenuales|AKIW781ubub,61,0,125,0,51,0,0,21,0,73,0,0
+Bacteria|Chloroflexi|Chloroflexia|Kallotenuales|AKIW781,0,0,0,0,0,0,0,0,0,0,0,78
+Bacteria|Chloroflexi|Elev-1554ubububub,0,0,0,87,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|Gitt-GS-136ubububub,19,0,22,0,0,0,0,41,0,0,0,0
+Bacteria|Chloroflexi|JG30-KF-CM66ubububub,0,0,0,0,0,0,0,0,0,0,59,0
+Bacteria|Chloroflexi|JG30-KF-CM66ub soil bacteriumub soil bacteriumub soil bacteriumub soil bacterium,0,0,0,0,0,0,0,0,0,18,0,0
+Bacteria|Chloroflexi|JG30-KF-CM66,0,13,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|JG37-AG-4ub Chloroflexi bacteriumub Chloroflexi bacteriumub Chloroflexi bacteriumub Chloroflexi bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|JG37-AG-4ubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|KD4-96ub Chloroflexi bacteriumub Chloroflexi bacteriumub Chloroflexi bacteriumub Chloroflexi bacterium,0,0,0,0,0,0,0,0,50,0,0,0
+Bacteria|Chloroflexi|KD4-96ubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|KD4-96,3,0,0,38,0,32,0,0,0,0,0,118
+Bacteria|Chloroflexi|Ktedonobacteria|B10-SB3Aububub,0,0,0,0,0,0,0,0,0,0,3,0
+Bacteria|Chloroflexi|Ktedonobacteria|B12-WMSP1ububub,0,0,0,244,0,91,0,0,0,403,172,0
+Bacteria|Chloroflexi|Ktedonobacteria|C0119ub Chloroflexi bacteriumub Chloroflexi bacteriumub Chloroflexi bacterium,148,101,232,59,196,84,70,143,118,128,140,98
+Bacteria|Chloroflexi|Ktedonobacteria|C0119ububub,69,42,0,226,54,121,150,80,0,342,264,0
+Bacteria|Chloroflexi|Ktedonobacteria|C0119ub soil bacteriumub soil bacteriumub soil bacterium,0,0,0,0,0,49,0,0,0,119,145,0
+Bacteria|Chloroflexi|Ktedonobacteria|C0119,0,0,0,33,0,0,0,0,0,0,32,0
+Bacteria|Chloroflexi|Ktedonobacteria|JG30-KF-AS9ububub,0,0,0,156,0,0,0,0,0,104,0,0
+Bacteria|Chloroflexi|Ktedonobacteria|Ktedonobacterales|1921-3ubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|Ktedonobacteria|Ktedonobacterales|1921-3,0,0,0,133,0,0,0,0,0,176,62,0
+Bacteria|Chloroflexi|Ktedonobacteria|Ktedonobacterales|FCPS473ub Ktedobacteria bacteriumub Ktedobacteria bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|Ktedonobacteria|Ktedonobacterales|FCPS473ub Ktedonobacter sp.ub Ktedonobacter sp.,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|Ktedonobacteria|Ktedonobacterales|FCPS473ubub,0,0,0,514,0,0,0,0,0,323,84,0
+Bacteria|Chloroflexi|Ktedonobacteria|Ktedonobacterales|FCPS473,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|Ktedonobacteria|Ktedonobacterales|G12-WMSP1ub Chloroflexi bacteriumub Chloroflexi bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|Ktedonobacteria|Ktedonobacterales|Thermosporotrichaceae|Thermosporothrixub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|Ktedonobacteria|Ktedonobacterales|Thermosporotrichaceaeubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|Ktedonobacteria|Ktedonobacterales,0,0,0,295,25,0,0,0,0,49,28,0
+Bacteria|Chloroflexi|Ktedonobacteria|Thermogemmatisporales|1921-2ub Ktedobacteria bacteriumub Ktedobacteria bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|Ktedonobacteria|Thermogemmatisporales|1921-2ubub,0,0,0,0,0,0,0,0,0,0,20,0
+Bacteria|Chloroflexi|Ktedonobacteria,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|P2-11Eubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|S085ubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|S085,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|SAR202 clade,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|SBR2076AmtAmtAmtAmt,55,0,0,0,0,0,21,0,0,0,0,0
+Bacteria|Chloroflexi|SBR2076ub Chloroflexi bacteriumub Chloroflexi bacteriumub Chloroflexi bacteriumub Chloroflexi bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|SBR2076ubububub,76,60,0,0,0,0,103,0,39,0,0,0
+Bacteria|Chloroflexi|SBR2076,0,0,0,0,0,0,0,47,0,0,0,0
+Bacteria|Chloroflexi|SHA-26ubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|TK10AmtAmtAmtAmt,0,0,0,0,0,0,0,0,0,0,53,111
+Bacteria|Chloroflexi|TK10ub Chloroflexi bacteriumub Chloroflexi bacteriumub Chloroflexi bacteriumub Chloroflexi bacterium,146,0,0,0,0,0,0,95,0,38,0,0
+Bacteria|Chloroflexi|TK10ubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|TK10ub soil bacteriumub soil bacteriumub soil bacteriumub soil bacterium,0,0,0,0,0,0,0,0,0,0,0,33
+Bacteria|Chloroflexi|TK10,0,0,81,0,0,0,0,0,42,0,56,178
+Bacteria|Chloroflexi|Thermomicrobia|AKYG1722ububub,0,0,0,0,0,36,0,0,0,0,0,0
+Bacteria|Chloroflexi|Thermomicrobia|JG30-KF-CM45ub Chloroflexi bacteriumub Chloroflexi bacteriumub Chloroflexi bacterium,134,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi|Thermomicrobia|JG30-KF-CM45ububub,98,223,21,0,0,0,158,0,0,151,0,0
+Bacteria|Chloroflexi|Thermomicrobia|JG30-KF-CM45ub soil bacteriumub soil bacteriumub soil bacterium,112,0,0,43,25,0,98,0,0,77,19,10
+Bacteria|Chloroflexi|Thermomicrobia|JG30-KF-CM45,0,0,0,0,168,0,0,134,100,0,198,243
+Bacteria|Chloroflexi|Thermomicrobia|Sphaerobacterales|Sphaerobacteraceae|Nitrolanceaub,0,0,0,128,0,62,0,0,0,98,0,0
+Bacteria|Chloroflexiub Bellilinea sp.ub Bellilinea sp.ub Bellilinea sp.ub Bellilinea sp.ub Bellilinea sp.,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Chloroflexi,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Cyanobacteria|Chloroplast|Bryum argenteum var. argenteum|Bryum argenteum var. argenteum|Bryum argenteum var. argenteum|Bryum argenteum var. argenteum,0,71,92,0,0,0,0,23,0,0,0,0
+Bacteria|Cyanobacteria|Chloroplast|Pseudendoclonium akinetum|Pseudendoclonium akinetum|Pseudendoclonium akinetum|Pseudendoclonium akinetum,0,0,0,0,0,0,0,0,0,0,0,7
+Bacteria|Cyanobacteria|Chloroplast|Pseudomuriella schumacherensis|Pseudomuriella schumacherensis|Pseudomuriella schumacherensis|Pseudomuriella schumacherensis,0,0,0,0,0,0,81,0,0,0,0,0
+Bacteria|Cyanobacteria|Chloroplast|Triticum aestivum bread wheat|Triticum aestivum bread wheat|Triticum aestivum bread wheat|Triticum aestivum bread wheat,0,0,0,0,0,0,0,0,0,18,0,0
+Bacteria|Cyanobacteria|Chloroplast,80,23,17,6,0,0,92,0,0,0,12,0
+Bacteria|Cyanobacteria|Cyanobacteria|SubsectionI|FamilyI|Brasilonema,34,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Cyanobacteria|Cyanobacteria|SubsectionI|FamilyI|Mastigocladopsisub,0,0,0,0,0,0,111,0,0,13,0,0
+Bacteria|Cyanobacteria|Cyanobacteria|SubsectionIII|FamilyI|Crinaliumub cyanobacterium,0,0,33,0,0,0,0,0,0,0,0,81
+Bacteria|Cyanobacteria|Cyanobacteria|SubsectionIII|FamilyI|Geitlerinemaub,0,0,0,0,0,0,87,0,60,0,0,50
+Bacteria|Cyanobacteria|Cyanobacteria|SubsectionIII|FamilyI|LeptolyngbyaAmt,113,0,0,0,0,0,71,0,0,0,0,54
+Bacteria|Cyanobacteria|Cyanobacteria|SubsectionIII|FamilyI|Leptolyngbyaub,61,0,0,0,0,0,144,0,0,0,0,0
+Bacteria|Cyanobacteria|Cyanobacteria|SubsectionIII|FamilyI|Leptolyngbya,0,12,45,0,0,0,59,0,0,24,0,9
+Bacteria|Cyanobacteria|Cyanobacteria|SubsectionIII|FamilyI|Microcoleusub,0,0,0,0,0,76,56,0,0,0,59,113
+Bacteria|Cyanobacteria|Cyanobacteria|SubsectionIII|FamilyI|Phormidium,152,0,0,0,0,0,57,0,0,0,0,0
+Bacteria|Cyanobacteria|Cyanobacteria|SubsectionIII|FamilyIub,89,0,0,0,0,0,33,0,0,0,0,0
+Bacteria|Cyanobacteria|Cyanobacteria|SubsectionIII|FamilyI,0,25,74,0,42,108,249,0,0,0,0,0
+Bacteria|Cyanobacteria|Cyanobacteria|SubsectionIV|FamilyIubub,52,10,0,0,0,0,0,0,0,0,0,0
+Bacteria|Cyanobacteria|Cyanobacteria|SubsectionIV|FamilyI,0,0,0,0,0,0,42,0,0,0,0,0
+Bacteria|Cyanobacteria|Cyanobacteria|SubsectionIV|FamilyII|CalothrixAmt,0,0,0,0,0,0,0,0,0,0,0,7
+Bacteria|Cyanobacteria|ML635J-21ubububub,0,0,0,0,0,0,0,0,0,119,0,31
+Bacteria|Cyanobacteria|ML635J-21ub cyanobacteriumub cyanobacteriumub cyanobacteriumub cyanobacterium,0,0,0,0,0,16,0,0,0,0,18,0
+Bacteria|Cyanobacteria|ML635J-21,6,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Cyanobacteria|Melainabacteria|Obscuribacteralesububub,0,0,0,0,0,0,0,0,0,33,16,0
+Bacteria|Cyanobacteria|Melainabacteria|Obscuribacterales,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Cyanobacteria|Melainabacteria|Vampirovibrionalesububub,0,19,0,0,0,0,19,0,28,115,0,0
+Bacteria|Deinococcus-Thermus|Deinococci|Deinococcales|Deinococcaceae|DeinococcusAmt,0,0,41,0,0,0,0,0,0,0,13,0
+Bacteria|Deinococcus-Thermus|Deinococci|Deinococcales|Deinococcaceae|Deinococcusub,102,81,50,0,0,0,212,34,152,41,0,0
+Bacteria|Deinococcus-Thermus|Deinococci|Deinococcales|Deinococcaceae|Deinococcus,30,0,69,105,0,86,18,70,0,105,152,51
+Bacteria|Deinococcus-Thermus|Deinococci|Deinococcales|Trueperaceae|Trueperaub Thermus/Deinococcus group bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Deinococcus-Thermus|Deinococci|Deinococcales|Trueperaceae|Trueperaub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Deinococcus-Thermus|Deinococci|Deinococcales|Trueperaceae|Truepera,48,0,17,0,0,0,47,137,24,0,0,0
+Bacteria|Elusimicrobia|Elusimicrobia|Lineage IIaububub,35,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Elusimicrobia|Elusimicrobia|Lineage IIbububub,0,0,0,0,0,0,0,0,0,12,0,0
+Bacteria|Elusimicrobia|Elusimicrobia|Lineage IVububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Elusimicrobia|Elusimicrobia|MVP-88ububub,0,0,0,0,0,0,0,10,0,0,0,0
+Bacteria|FBPububububub,37,0,44,0,0,0,53,74,101,0,0,0
+Bacteria|FBPub soil bacteriumub soil bacteriumub soil bacteriumub soil bacteriumub soil bacterium,0,0,26,0,0,49,0,0,0,0,31,22
+Bacteria|FBP,0,0,0,0,0,0,3,0,0,0,0,0
+Bacteria|FCPU426ububububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Fibrobacteres|Fibrobacteria|Fibrobacterales|Fibrobacteraceae|possible genus 04ub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Firmicutes|Bacilli|Bacillales|Alicyclobacillaceae|AlicyclobacillusAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Firmicutes|Bacilli|Bacillales|Alicyclobacillaceae|Alicyclobacillus,0,0,0,95,0,0,0,0,0,0,0,0
+Bacteria|Firmicutes|Bacilli|Bacillales|Alicyclobacillaceae|TumebacillusAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Firmicutes|Bacilli|Bacillales|Alicyclobacillaceae|Tumebacillusub,0,0,83,0,0,0,0,0,0,0,0,0
+Bacteria|Firmicutes|Bacilli|Bacillales|Alicyclobacillaceae|Tumebacillus,0,0,0,157,0,0,0,0,0,112,0,0
+Bacteria|Firmicutes|Bacilli|Bacillales|Bacillaceae|Bacillus|Bacillus clausii,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Firmicutes|Bacilli|Bacillales|Bacillaceae|Bacillus,273,102,183,0,0,83,0,70,137,815,202,110
+Bacteria|Firmicutes|Bacilli|Bacillales|Bacillaceae|VirgibacillusAmt,0,0,0,0,0,0,0,0,0,0,0,29
+Bacteria|Firmicutes|Bacilli|Bacillales|Bacillaceae,0,0,0,106,0,0,0,0,0,0,0,0
+Bacteria|Firmicutes|Bacilli|Bacillales|Paenibacillaceae|Brevibacillusub,0,0,42,0,0,0,0,0,0,0,0,0
+Bacteria|Firmicutes|Bacilli|Bacillales|Paenibacillaceae|Brevibacillus,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Firmicutes|Bacilli|Bacillales|Paenibacillaceae|Paenibacillus|Paenibacillus amylolyticus,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Firmicutes|Bacilli|Bacillales|Paenibacillaceae|Paenibacillus,0,0,0,0,0,0,0,0,0,0,0,12
+Bacteria|Firmicutes|Bacilli|Bacillales|Paenibacillaceaeubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Firmicutes|Bacilli|Bacillales|Planococcaceae,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Firmicutes|Bacilli|Bacillales|Staphylococcaceae|Staphylococcus,0,0,0,0,0,5,0,0,0,0,0,0
+Bacteria|Firmicutes|Bacilli|Bacillales,0,0,0,0,0,0,0,0,0,30,0,0
+Bacteria|Firmicutes|Clostridia|Clostridiales|Family XVII|Sulfobacillusub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Firmicutes|Clostridia|Clostridiales|Family XVIII|Symbiobacteriumub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Mobilitalea,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|Ruminiclostridium 1,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Firmicutes|Clostridia|Halanaerobiales|ODP1230B8.23AmtAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Firmicutes|Clostridia|Halanaerobiales|ODP1230B8.23ubub,0,14,0,93,0,44,0,0,0,124,59,0
+Bacteria|Firmicutes|Clostridia|Halanaerobiales|ODP1230B8.23,0,0,0,0,0,12,0,0,0,0,0,0
+Bacteria|Firmicutes|Clostridia,0,2,0,0,0,0,0,0,0,0,0,0
+Bacteria|Firmicutes|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Erysipelatoclostridium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Firmicutes|Negativicutes|Selenomonadales|Veillonellaceae|Pelosinusub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Firmicutes,0,0,0,0,0,0,0,0,0,0,14,0
+Bacteria|GAL15ububububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|GAL15,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Gemmatimonadetes|AKAU4049ubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Gemmatimonadetes|BD2-11 terrestrial groupub Gemmatimonadetes bacteriumub Gemmatimonadetes bacteriumub Gemmatimonadetes bacteriumub Gemmatimonadetes bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Gemmatimonadetes|BD2-11 terrestrial groupubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Gemmatimonadetes|BD2-11 terrestrial groupub soil bacteriumub soil bacteriumub soil bacteriumub soil bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Gemmatimonadetes|BD2-11 terrestrial group,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Gemmatimonadetes|Gemmatimonadetes|Gemmatimonadales|Gemmatimonadaceae|Gemmatimonas,0,0,0,0,0,0,49,0,0,0,30,411
+Bacteria|Gemmatimonadetes|Gemmatimonadetes|Gemmatimonadales|Gemmatimonadaceae|Gemmatirosaub,0,0,0,0,0,0,0,0,199,0,0,0
+Bacteria|Gemmatimonadetes|Gemmatimonadetes|Gemmatimonadales|GemmatimonadaceaeubAmt,29,0,0,0,0,0,0,0,0,0,29,87
+Bacteria|Gemmatimonadetes|Gemmatimonadetes|Gemmatimonadales|Gemmatimonadaceaeubub Gemmatimonadales bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Gemmatimonadetes|Gemmatimonadetes|Gemmatimonadales|Gemmatimonadaceaeubub Gemmatimonadetes bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Gemmatimonadetes|Gemmatimonadetes|Gemmatimonadales|Gemmatimonadaceaeubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Gemmatimonadetes|Gemmatimonadetes|Gemmatimonadales|Gemmatimonadaceaeub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Gemmatimonadetes|Gemmatimonadetes|Gemmatimonadales|Gemmatimonadaceae,0,0,309,83,0,0,0,0,0,0,148,0
+Bacteria|Gemmatimonadetes|Longimicrobia|Longimicrobiales|Longimicrobiaceaeubub,0,45,0,40,0,0,0,0,107,38,0,198
+Bacteria|Gemmatimonadetes|Longimicrobia|Longimicrobiales|Longimicrobiaceae,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Gemmatimonadetes|S0134 terrestrial group,0,0,0,0,0,0,0,0,0,0,47,12
+Bacteria|HydrogenedentesAmtAmtAmtAmtAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Hydrogenedentes,0,0,0,0,0,0,0,0,0,2,0,0
+Bacteria|Ignavibacteriae|Ignavibacteria|Ignavibacteriales|BSV26ubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|LatescibacteriaAmtAmtAmtAmtAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Latescibacteriaub Latescibacteria bacteriumub Latescibacteria bacteriumub Latescibacteria bacteriumub Latescibacteria bacteriumub Latescibacteria bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Latescibacteriaub Pelobacter sp.ub Pelobacter sp.ub Pelobacter sp.ub Pelobacter sp.ub Pelobacter sp.,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Latescibacteriaububububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Latescibacteriaub soil bacteriumub soil bacteriumub soil bacteriumub soil bacteriumub soil bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Latescibacteria,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Microgenomates|Candidatus Amesbacteria,7,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Microgenomates|Candidatus Curtissbacteriaubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Microgenomates|Candidatus Daviesbacteriaubububub,17,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Microgenomates|Candidatus Levybacteriaubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Microgenomates|Candidatus Woesebacteriaubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Microgenomatesububububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Microgenomates,0,0,0,0,0,0,0,0,4,0,0,0
+Bacteria|Nitrospirae|Nitrospira|Nitrospirales|0319-6A21ubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Nitrospirae|Nitrospira|Nitrospirales|0319-6A21ub candidate division SPAM bacteriumub candidate division SPAM bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Nitrospirae|Nitrospira|Nitrospirales|0319-6A21,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Nitrospirae|Nitrospira|Nitrospirales|Nitrospiraceae|Leptospirillumub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Nitrospirae|Nitrospira|Nitrospirales|Nitrospiraceae|Nitrospiraub Nitrospiraceae bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Nitrospirae|Nitrospira|Nitrospirales|Nitrospiraceae|Nitrospira,77,0,46,0,36,0,0,54,32,28,0,0
+Bacteria|Omnitrophica|Omnitrophica Incertae Sedis|Unknown Order|Unknown Family|Candidatus Omnitrophusub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Omnitrophicaububububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Omnitrophicaub planctomyceteub planctomyceteub planctomyceteub planctomyceteub planctomycete,0,0,0,0,0,0,0,0,0,3,0,0
+Bacteria|Omnitrophica,0,35,0,0,0,0,0,0,0,0,0,0
+Bacteria|Parcubacteria|Candidatus Adlerbacteriaubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Parcubacteria|Candidatus Azambacteriaubububub,0,0,0,0,0,0,0,19,0,0,0,0
+Bacteria|Parcubacteria|Candidatus Azambacteria,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Parcubacteria|Candidatus Falkowbacteriaubububub,14,0,0,0,0,0,0,33,0,0,0,0
+Bacteria|Parcubacteria|Candidatus Giovannonibacteriaubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Parcubacteria|Candidatus JorgensenbacteriaAmtAmtAmtAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Parcubacteria|Candidatus Kuenenbacteriaubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Parcubacteria|Candidatus Magasanikbacteriaubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Parcubacteria|Candidatus Moranbacteriaubububub,0,6,0,0,0,0,0,0,0,0,0,0
+Bacteria|Parcubacteria|Candidatus Uhrbacteriaubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Parcubacteria|groundwater metagenome|groundwater metagenome|groundwater metagenome|groundwater metagenome|groundwater metagenome,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Parcubacteriaububububub,38,21,0,0,0,0,0,0,51,0,126,97
+Bacteria|Parcubacteria,0,0,0,0,0,0,8,0,0,0,0,0
+Bacteria|Peregrinibacteria|Candidatus Peribacteriaubububub,0,18,20,0,0,0,0,14,0,0,0,0
+Bacteria|Peregrinibacteriaububububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|BD7-11ubububub,0,0,0,0,11,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|OM190|planctomycete A-2|planctomycete A-2|planctomycete A-2|planctomycete A-2,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|OM190ub Planctomycetales bacteriumub Planctomycetales bacteriumub Planctomycetales bacteriumub Planctomycetales bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|OM190ubububub,0,0,0,0,0,0,0,21,0,0,0,0
+Bacteria|Planctomycetes|Phycisphaerae|CCM11aububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Phycisphaerae|CPla-3 termite groupububub,0,0,0,0,0,0,0,0,0,0,0,22
+Bacteria|Planctomycetes|Phycisphaerae|CPla-3 termite groupub planctomyceteub planctomyceteub planctomycete,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Phycisphaerae|CPla-3 termite group,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Phycisphaerae|Phycisphaerales|Phycisphaeraceae|I-8ub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Phycisphaerae|Phycisphaerales|Phycisphaeraceae|SM1A02ub planctomycete,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Phycisphaerae|Phycisphaerales|Phycisphaeraceaeubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Phycisphaerae|Pla1 lineageububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Phycisphaerae|S-70ububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Phycisphaerae|S-70ub planctomyceteub planctomyceteub planctomycete,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Phycisphaerae|Tepidisphaerales|TepidisphaeraceaeAmtAmt,0,136,128,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Phycisphaerae|Tepidisphaerales|Tepidisphaeraceaeubub,19,0,0,166,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Phycisphaerae|Tepidisphaerales|Tepidisphaeraceaeub planctomyceteub planctomycete,0,0,0,0,66,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Phycisphaerae|Tepidisphaerales|Tepidisphaeraceaeub soil bacteriumub soil bacterium,0,0,0,0,50,0,0,0,0,0,0,53
+Bacteria|Planctomycetes|Phycisphaerae|Tepidisphaerales|Tepidisphaeraceae,0,0,0,0,69,15,67,22,0,0,113,39
+Bacteria|Planctomycetes|Phycisphaerae|mle1-8ububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Pla4 lineageubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Pla4 lineageub planctomyceteub planctomyceteub planctomyceteub planctomycete,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Pla4 lineage,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|Planctomycetaceae|GemmataAmt,156,0,0,3,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|Planctomycetaceae|Gemmataub Gemmata sp.,0,0,0,0,0,0,78,0,0,0,0,0
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|Planctomycetaceae|Gemmataub Planctomycetales bacterium,0,0,0,0,0,0,0,71,0,0,0,0
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|Planctomycetaceae|Gemmata,0,0,0,0,97,0,84,0,0,0,93,0
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|Planctomycetaceae|Isosphaera,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|Planctomycetaceae|Pir4 lineageAmt,44,0,0,0,0,28,0,68,0,0,38,40
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|Planctomycetaceae|Pir4 lineageub,0,0,0,0,0,0,0,109,0,0,0,0
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|Planctomycetaceae|Pir4 lineage,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|Planctomycetaceae|Pirellulaub Pasteuria sp.,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|Planctomycetaceae|Pirellulaub Planctomycetaceae bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|Planctomycetaceae|Pirellulaub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|Planctomycetaceae|Pirellula,97,0,0,0,0,0,0,0,0,0,84,0
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|Planctomycetaceae|Planctomycesub Planctomycetaceae bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|Planctomycetaceae|Planctomycesub,36,0,0,0,0,0,95,68,0,0,0,0
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|Planctomycetaceae|Planctomycesub soil bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|Planctomycetaceae|Planctomyces,90,0,33,16,0,0,0,0,15,0,80,110
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|Planctomycetaceae|Singulisphaeraub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|Planctomycetaceae|Singulisphaera,0,0,0,0,0,0,0,0,0,0,349,0
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|Planctomycetaceae|Zavarzinellaub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|PlanctomycetaceaeubAmt,32,0,0,0,0,0,0,0,0,0,59,74
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|Planctomycetaceaeubub Gemmata sp.,0,0,44,129,24,0,21,0,0,153,0,127
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|Planctomycetaceaeubub Planctomycetaceae bacterium,19,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|Planctomycetaceaeubub Planctomycetales bacterium,0,0,18,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|Planctomycetaceaeubub Zavarzinella sp.,0,0,0,0,0,48,0,0,0,0,0,0
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|Planctomycetaceaeubub,0,10,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|Planctomycetaceaeubub forest soil bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|Planctomycetaceaeub,72,0,38,233,0,124,0,56,61,0,0,58
+Bacteria|Planctomycetes|Planctomycetacia|Planctomycetales|Planctomycetaceae,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes|vadinHA49ubububub,0,0,0,0,0,0,8,0,0,0,0,0
+Bacteria|Planctomycetes|vadinHA49,0,0,0,54,0,0,0,0,0,0,0,0
+Bacteria|Planctomycetes,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Alphaproteobacteria Incertae Sedis|Unknown Familyubub alpha proteobacterium,0,0,0,0,0,0,3,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Alphaproteobacteria Incertae Sedisububub,0,22,6,0,0,0,0,15,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Alphaproteobacteria Incertae Sedisub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Caulobacterales|Caulobacteraceae|Brevundimonasub alpha proteobacterium,0,0,0,0,0,0,0,0,2,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Caulobacterales|Caulobacteraceae|Caulobacterub,63,144,47,0,0,0,0,0,78,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Caulobacterales|Caulobacteraceae|Phenylobacterium,0,154,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Caulobacterales|Caulobacteraceaeubub,0,0,0,118,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Caulobacterales|Caulobacteraceaeub,18,0,0,0,0,0,0,0,19,0,71,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Caulobacterales|Caulobacteraceae,0,0,0,0,0,0,121,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Caulobacterales|Hyphomonadaceae|Hirschiaub,47,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Caulobacterales|Hyphomonadaceae|Woodsholeaub,75,0,0,0,0,0,0,99,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|E6aD10,111,71,0,0,0,0,101,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Parvularculales|Parvularculaceae|Amphiplicatusub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|A0839ubub,43,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Beijerinckiaceaeubub,0,0,0,0,0,0,0,0,0,0,117,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Beijerinckiaceae,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Bradyrhizobiaceae|Bradyrhizobium,82,91,63,0,0,67,92,0,114,0,72,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Bradyrhizobiaceaeub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Bradyrhizobiaceae,0,0,0,0,0,0,0,0,0,0,0,73
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Hyphomicrobiaceae|Devosiaub,73,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Hyphomicrobiaceae|Devosia,284,234,234,0,0,0,140,0,168,137,97,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Hyphomicrobiaceae|Hyphomicrobium,0,0,0,0,0,0,0,3,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Hyphomicrobiaceae|PedomicrobiumAmt,0,0,0,0,0,0,0,0,29,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Hyphomicrobiaceae|Pedomicrobium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Hyphomicrobiaceae|Rhodoplanesub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Hyphomicrobiaceae|Rhodoplanes,0,0,0,0,0,0,0,0,0,0,0,71
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|JG34-KF-361ub alpha proteobacteriumub alpha proteobacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|JG34-KF-361ubub,0,0,98,0,72,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|JG34-KF-361,0,69,0,0,0,0,0,0,0,0,65,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|JG35-K1-AG5ubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|KF-JG30-B3ubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|MNG7ubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Methylobacteriaceae|Meganema,52,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Methylobacteriaceae|MethylobacteriumAmt,40,43,0,0,0,0,93,20,134,53,46,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Methylobacteriaceae|Methylobacterium|Methylobacterium aquaticum,0,0,0,0,0,0,0,0,0,144,119,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Methylobacteriaceae|Methylobacterium|Methylobacterium populi,0,0,0,0,0,0,0,0,0,60,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Methylobacteriaceae|Methylobacterium|Methylobacterium radiotolerans,0,0,0,96,122,0,188,0,82,101,112,153
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Methylobacteriaceae|Methylobacteriumub,0,0,0,72,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Methylobacteriaceae|Methylobacterium,154,71,173,0,0,0,261,91,261,2,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Methylobacteriaceae|MicrovirgaAmt,223,172,288,0,0,0,127,201,0,203,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Methylobacteriaceae|Microvirgaub alpha proteobacterium,0,0,0,0,0,0,0,119,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Methylobacteriaceae|Microvirgaub,81,52,0,0,0,0,0,0,0,23,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Methylobacteriaceae|Microvirga,0,0,37,0,0,0,93,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Methylobacteriaceae|Psychroglaciecolaub,0,0,0,0,215,0,0,0,0,0,0,122
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Methylobacteriaceae,0,29,0,0,0,0,0,0,70,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|P-102ubub,0,0,0,0,0,0,0,0,0,0,0,35
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Phyllobacteriaceae|Mesorhizobium,125,0,0,0,0,0,107,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Rhizobiaceae|EnsiferAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Rhizobiaceae|Rhizobium|Rhizobium radiobacter,47,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Rhizobiaceae|Rhizobiumub Rhizobium sp.,0,0,0,0,0,0,0,0,0,74,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Rhizobiaceae|Rhizobium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Rhizobiales Incertae Sedis|Bauldiaub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Rhizobiales Incertae Sedis|NordellaAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Rhizobiales Incertae Sedis|Nordellaub,113,0,0,0,0,0,53,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Rhizobiales Incertae Sedis|Nordella,2,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Rhizobiales Incertae Sedis|RhizomicrobiumAmt,0,0,86,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Rhizobiales Incertae Sedis|Rhizomicrobiumub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Rhizobiales Incertae Sedis|Rhizomicrobiumub proteobacterium,0,0,0,0,0,0,0,0,0,0,125,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Rhizobiales Incertae Sedis|Rhizomicrobium,100,128,0,0,0,0,0,47,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|RhodobiaceaeubAmt,63,0,51,0,0,0,0,52,45,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Roseiarcaceae|Roseiarcusub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Xanthobacteraceae|Labrysub,61,0,41,0,0,0,0,42,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Xanthobacteraceae|Pseudolabrysub,0,0,0,192,240,262,0,0,0,195,376,207
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Xanthobacteraceae|Pseudolabrys,0,89,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Xanthobacteraceae|Variibacterub forest soil bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Xanthobacteraceae|Variibacter,4,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Xanthobacteraceaeub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|Xanthobacteraceae,0,0,0,0,0,72,0,54,0,0,0,116
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales|alphaI clusterubub,81,93,85,0,0,0,100,0,91,73,63,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhizobiales,0,142,111,20,0,0,0,53,0,29,0,52
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodobacterales|Rhodobacteraceae|Amaricoccusub,63,0,97,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodobacterales|Rhodobacteraceae|Paracoccus,0,0,0,0,0,0,0,0,0,152,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodobacterales|Rhodobacteraceae|Rhodobacter,70,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodobacterales|Rhodobacteraceae|Rubellimicrobiumub,0,0,0,0,0,0,215,157,0,0,45,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodobacterales|Rhodobacteraceae|Tabrizicola,26,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodobacterales|Rhodobacteraceae,3,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodospirillales|AKYH478ubub,0,0,0,0,0,0,0,30,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodospirillales|Acetobacteraceae|Acidicaldusub,0,0,0,96,0,0,0,0,0,407,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodospirillales|Acetobacteraceae|Acidiphiliumub,0,0,0,0,196,0,0,0,0,0,223,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodospirillales|Acetobacteraceae|Roseomonasub,0,145,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodospirillales|Acetobacteraceae|Roseomonas,0,0,0,0,0,0,0,0,0,48,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodospirillales|Acetobacteraceaeub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodospirillales|Acetobacteraceae,0,0,0,83,117,100,0,0,2,175,0,132
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodospirillales|DA111ub alpha proteobacteriumub alpha proteobacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodospirillales|DA111ubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodospirillales|DA111ub forest soil bacteriumub forest soil bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodospirillales|DA111,0,0,0,0,2,119,0,0,0,0,34,150
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodospirillales|I-10ubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodospirillales|MND8ubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodospirillales|RhodospirillaceaeAmtAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodospirillales|Rhodospirillaceae|Defluviicoccusub,0,0,0,0,68,69,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodospirillales|Rhodospirillaceae|Defluviicoccus,0,0,0,0,0,0,0,0,0,64,70,77
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodospirillales|Rhodospirillaceae|Inquilinusub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodospirillales|Rhodospirillaceae|Skermanellaub,62,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodospirillales|Rhodospirillaceaeubub,0,13,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodospirillales|Rhodospirillaceaeubub soil bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodospirillales|Rhodospirillaceaeub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodospirillales|Rhodospirillaceae,0,12,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodospirillales|Rhodospirillales Incertae Sedis|Candidatus Alysiosphaeraub,289,0,149,0,0,0,0,121,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodospirillales|Rhodospirillales Incertae Sedis|Candidatus Alysiosphaera,0,0,0,65,0,76,0,0,0,61,84,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodospirillales|Rhodospirillales Incertae Sedis|Geminicoccusub,0,0,0,0,0,0,0,0,0,56,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodospirillales|Rhodospirillales Incertae Sedis|ReyranellaAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rhodospirillales|Rhodospirillales Incertae Sedis|Reyranella,108,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rickettsiales|Mitochondria|Malawimonas californiana|Malawimonas californiana,0,0,0,0,0,0,0,0,0,0,7,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rickettsiales|Mitochondria|Spongospora subterranea|Spongospora subterranea,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rickettsiales|Mitochondria|Tetraphis pellucida|Tetraphis pellucida,0,69,64,0,0,0,0,28,30,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rickettsiales|Mitochondriaubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rickettsiales|Mitochondria,0,0,0,0,2,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rickettsiales|Rickettsiaceae|RickettsiaAmt,68,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rickettsiales|Rickettsiaceae|Rickettsiaub Rickettsia sp.,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rickettsiales|Rickettsiales Incertae Sedis|Candidatus Captivusub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rickettsiales|SM2D12ub alpha proteobacteriumub alpha proteobacterium,0,0,63,0,0,0,0,0,50,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rickettsiales|SM2D12ubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rickettsiales|SM2D12ub soil bacteriumub soil bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rickettsiales|SM2D12,0,0,0,0,0,0,0,0,8,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rickettsiales|TK34ubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rickettsiales|[Caedibacter] caryophilus groupubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rickettsialesububub,0,11,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Rickettsiales,0,13,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Sphingomonadales|7B-8ubub,35,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Sphingomonadales|Ellin6055ubub,0,223,73,136,152,158,0,147,167,252,130,158
+Bacteria|Proteobacteria|Alphaproteobacteria|Sphingomonadales|Erythrobacteraceae|Altererythrobacterub,0,0,0,0,0,0,0,0,0,99,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Sphingomonadales|Erythrobacteraceae|Altererythrobacter,0,0,0,0,0,0,0,0,0,0,0,88
+Bacteria|Proteobacteria|Alphaproteobacteria|Sphingomonadales|Erythrobacteraceaeub,0,0,0,0,0,0,0,0,0,2,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Sphingomonadales|Erythrobacteraceae,0,231,200,0,0,0,154,0,0,141,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Sphingomonadales|JG34-KF-161ubub,50,0,107,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Sphingomonadales|JG34-KF-161,3,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Sphingomonadales|Sphingomonadaceae|Novosphingobium,31,0,0,0,0,0,0,0,0,0,169,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Sphingomonadales|Sphingomonadaceae|Sphingobium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Sphingomonadales|Sphingomonadaceae|Sphingomonasub Sphingomonadaceae bacterium,209,155,183,328,130,36,153,75,200,146,86,129
+Bacteria|Proteobacteria|Alphaproteobacteria|Sphingomonadales|Sphingomonadaceae|Sphingomonas,348,576,442,50,0,0,381,310,316,76,2,151
+Bacteria|Proteobacteria|Alphaproteobacteria|Sphingomonadales|Sphingomonadaceae|Zymomonasub,112,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Sphingomonadales|Sphingomonadaceae,0,0,0,0,0,0,0,4,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Sphingomonadales|WW2-159ubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Alphaproteobacteria|Sphingomonadales,314,117,137,194,0,2,197,205,0,0,85,0
+Bacteria|Proteobacteria|Alphaproteobacteria,5,0,4,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Betaproteobacteria|B1-7BSububub,0,15,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Alcaligenaceaeubub beta proteobacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Alcaligenaceaeub,0,0,40,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Burkholderiaceae|Burkholderia-Paraburkholderiaub Burkholderia sp.,0,0,0,0,0,0,0,0,64,0,0,0
+Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Burkholderiaceae|Burkholderia-Paraburkholderia,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Burkholderiaceae|CupriavidusAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Burkholderiaceae|Cupriavidus,0,0,0,0,0,0,0,58,0,0,0,0
+Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Burkholderiaceae|Lautropiaub,0,0,0,0,0,0,76,0,0,0,0,0
+Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Burkholderiaceae,0,0,0,0,0,0,0,0,36,0,0,0
+Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Comamonadaceae|Ideonella,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Comamonadaceae|RamlibacterAmt,101,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Comamonadaceae|Ramlibacter,0,80,109,24,0,0,0,0,0,137,231,0
+Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Comamonadaceae,275,197,191,0,129,0,204,0,282,88,0,0
+Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Oxalobacteraceae|DuganellaAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Oxalobacteraceae|Massilia,0,0,0,0,0,0,0,0,0,0,121,76
+Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Oxalobacteraceae|Noviherbaspirillum,0,0,0,0,0,0,0,0,0,232,0,0
+Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Oxalobacteraceae,0,129,0,109,0,0,0,0,0,44,199,0
+Bacteria|Proteobacteria|Betaproteobacteria|Methylophilales|Methylophilaceae,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Betaproteobacteria|Neisseriales|Neisseriaceaeubub beta proteobacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Betaproteobacteria|Nitrosomonadales|Nitrosomonadaceae|NitrosomonasAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Betaproteobacteria|Nitrosomonadales|Nitrosomonadaceae|NitrosospiraAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Betaproteobacteria|Nitrosomonadales|Nitrosomonadaceaeubub Burkholderiaceae bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Betaproteobacteria|Nitrosomonadales|Nitrosomonadaceaeubub Burkholderiales bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Betaproteobacteria|Nitrosomonadales|Nitrosomonadaceaeubub Oxalobacteraceae bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Betaproteobacteria|Nitrosomonadales|Nitrosomonadaceaeubub soil bacterium,112,0,0,51,83,74,65,0,0,27,129,96
+Bacteria|Proteobacteria|Betaproteobacteria|Nitrosomonadales|Nitrosomonadaceaeub,122,42,0,0,0,56,0,54,46,0,0,0
+Bacteria|Proteobacteria|Betaproteobacteria|SC-I-84AmtAmtAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Betaproteobacteria|SC-I-84ububub,0,0,0,0,0,0,67,0,0,0,0,0
+Bacteria|Proteobacteria|Betaproteobacteria|SC-I-84ub beta proteobacteriumub beta proteobacteriumub beta proteobacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Betaproteobacteria|SC-I-84,153,227,0,0,213,206,70,194,133,202,107,251
+Bacteria|Proteobacteria|Betaproteobacteria|TRA3-20,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Betaproteobacteria,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Bdellovibrionales|Bacteriovoracaceae|Peredibacterub,0,0,3,0,0,0,0,0,0,0,0,5
+Bacteria|Proteobacteria|Deltaproteobacteria|Bdellovibrionales|Bdellovibrionaceae|BdellovibrioAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Bdellovibrionales|Bdellovibrionaceae|Bdellovibrio|Bdellovibrio bacteriovorus,0,0,0,10,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Bdellovibrionales|Bdellovibrionaceae|Bdellovibrioub,0,0,14,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Bdellovibrionales|Bdellovibrionaceae|Bdellovibrioub soil bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Bdellovibrionales|Bdellovibrionaceae|Bdellovibrio,0,13,0,0,0,0,0,0,32,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Bdellovibrionales|Bdellovibrionaceae|OM27 cladeub,0,0,0,0,0,0,0,7,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Bdellovibrionales|Bdellovibrionaceae|OM27 clade,0,0,0,0,0,0,0,16,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Desulfurellales|Desulfurellaceae|G55ub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Desulfurellales|Desulfurellaceae|G55ub delta proteobacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Desulfurellales|Desulfurellaceae|H16Amt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Desulfurellales|Desulfurellaceae|H16ub Desulfuromonadales bacterium,53,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Desulfurellales|Desulfurellaceae|H16ub Myxococcales bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Desulfurellales|Desulfurellaceae|H16ub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Desulfurellales|Desulfurellaceae|H16ub delta proteobacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Desulfurellales|Desulfurellaceae|H16ub proteobacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Desulfurellales|Desulfurellaceae|H16,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|Archangiaceae|AnaeromyxobacterAmt,0,0,0,0,0,7,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|Archangiaceae|Anaeromyxobacterub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|Archangiaceae|Anaeromyxobacterub delta proteobacterium,0,0,0,0,0,0,0,0,0,0,74,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|Archangiaceae|Anaeromyxobacter,0,0,0,0,47,367,0,0,0,82,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|BIrii41AmtAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|BIrii41ubub,70,219,0,0,0,0,0,72,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|BIrii41,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|Blfdi19ubub,15,23,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|Haliangiaceae|Haliangiumub Haliangium sp.,0,0,0,49,48,0,0,0,0,0,43,49
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|Haliangiaceae|Haliangiumub Myxococcales bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|Haliangiaceae|Haliangiumub,0,58,0,0,0,0,0,60,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|Haliangiaceae|Haliangiumub delta proteobacterium,0,127,113,0,0,0,76,0,106,0,0,44
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|Haliangiaceae|Haliangiumub soil bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|Haliangiaceae|Haliangium,84,106,106,0,47,0,109,78,0,0,48,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|KD3-10ubub,0,0,13,0,0,0,0,0,12,0,8,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|Myxococcaceae,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|Nannocystaceae|Nannocystisub,0,0,0,0,0,0,0,0,0,3,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|P3OB-42ubub,17,42,0,0,0,0,0,13,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|P3OB-42ub delta proteobacteriumub delta proteobacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|Phaselicystidaceae|Phaselicystisub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|Phaselicystidaceae|Phaselicystisub delta proteobacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|Polyangiaceae|Sorangiumub,0,0,95,32,0,0,0,0,0,0,0,71
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|Polyangiaceae|Sorangium,0,0,0,0,49,48,0,122,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|Polyangiaceaeubub,0,107,90,0,0,0,169,0,0,85,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|Polyangiaceae,0,0,55,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|Sandaracinaceaeubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|Sandaracinaceaeubub soil bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|Sandaracinaceaeub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|VHS-B3-70ubub,0,0,0,0,0,0,0,0,0,18,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|bacteriap25,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales|mle1-27ubub,0,0,0,0,0,0,0,18,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcalesububub,0,0,110,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Myxococcales,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|NB1-jububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|NB1-j,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Oligoflexales|0319-6G20AmtAmt,6,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Oligoflexales|0319-6G20ubub,0,0,0,128,64,120,0,0,0,66,162,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Oligoflexales|0319-6G20ub delta proteobacteriumub delta proteobacterium,0,0,2,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Oligoflexales|0319-6G20ub soil bacteriumub soil bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Oligoflexales|0319-6G20,0,10,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Oligoflexales|Oligoflexaceae|Oligoflexusub,0,29,17,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Oligoflexales|Oligoflexaceaeubub,0,0,0,0,0,11,0,0,7,36,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|Oligoflexales|Oligoflexaceae,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria|SAR324 cladeMarine group Bububub,0,0,0,0,0,0,0,0,0,0,13,12
+Bacteria|Proteobacteria|Deltaproteobacteria|SAR324 cladeMarine group B,0,0,0,0,0,0,32,0,0,0,0,0
+Bacteria|Proteobacteria|Deltaproteobacteria,0,0,7,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Acidiferrobacterales|Acidiferrobacteraceae|Sulfurifustisub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Acidiferrobacterales|Acidiferrobacteraceae|Sulfurifustis,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Acidithiobacillales|Thermithiobacillaceae|Thermithiobacillus|Thermithiobacillus plumbiphilus,0,0,0,0,0,0,39,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Acidithiobacillales|Thermithiobacillaceae|Thermithiobacillusub Thermithiobacillus sp.,0,0,0,0,0,0,0,0,0,31,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|BD72BR169ububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacteriales|Enterobacteriaceae|Citrobacter,0,0,0,0,0,0,0,0,0,0,16,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Gammaproteobacteria Incertae Sedis|Unknown Family|Permianibacterub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|HTA4ububub,0,0,0,0,0,0,0,17,23,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|HTA4ub gamma proteobacteriumub gamma proteobacteriumub gamma proteobacterium,14,0,0,0,0,4,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|HTA4,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Legionellales|Coxiellaceae|Aquicellaub Aquicella sp.,0,0,0,0,17,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Legionellales|Coxiellaceae|Aquicellaub Coxiellaceae bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Legionellales|Coxiellaceae|Aquicellaub,0,0,0,0,0,0,0,0,0,0,44,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Legionellales|Coxiellaceae|Aquicella,0,36,68,0,0,0,0,0,22,0,0,75
+Bacteria|Proteobacteria|Gammaproteobacteria|Legionellales|Coxiellaceae|Coxiellaub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Legionellales|Coxiellaceaeubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Legionellales|Coxiellaceaeub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Legionellales|Legionellaceae|LegionellaAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Legionellales|Legionellaceae|Legionellaub,0,0,0,0,0,0,0,0,0,0,0,13
+Bacteria|Proteobacteria|Gammaproteobacteria|Legionellales|Legionellaceae|Legionella,0,0,0,0,53,0,20,0,0,59,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Legionellales|Legionellaceaeub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Legionellales|Legionellaceae,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Oceanospirillales|Oceanospirillaceae|Pseudohongiellaub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae|Pseudomonas,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Salinisphaerales|Salinisphaeraceae|Oceanococcusub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Thiotrichales|EV818SWSAP88ubub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|X35ububub,0,0,0,0,0,0,3,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|X35,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales|Solimonadaceae|Fontimonasub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales|Solimonadaceae|Polycyclovoransub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales|Solimonadaceae|Polycyclovorans,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales|Xanthomonadaceae|Dokdonella,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales|Xanthomonadaceae|DyellaAmt,0,0,0,0,53,0,0,0,0,53,0,56
+Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales|Xanthomonadaceae|LuteibacterAmt,0,0,0,0,0,0,0,0,60,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales|Xanthomonadaceae|Luteibacter,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales|Xanthomonadaceae|Luteimonas,0,118,170,0,0,0,51,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales|Xanthomonadaceae|Lysobacter,0,0,0,0,0,0,73,72,0,77,51,79
+Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales|Xanthomonadaceae|Mizugakiibacterub,0,0,0,65,0,0,16,0,0,31,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales|Xanthomonadaceae|Mizugakiibacter,0,0,0,0,87,0,0,0,0,0,91,45
+Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales|Xanthomonadaceae|Rhodanobacterub,0,0,28,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales|Xanthomonadaceae|Rhodanobacter,0,0,0,0,37,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales|Xanthomonadaceaeubub,122,44,0,0,0,0,0,93,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales|Xanthomonadaceaeub,128,26,0,0,0,0,40,63,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales|Xanthomonadaceae,0,0,83,0,0,0,0,0,75,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales|Xanthomonadales Incertae Sedis|AcidibacterAmt,118,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales|Xanthomonadales Incertae Sedis|Acidibacterub,0,108,0,0,21,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales|Xanthomonadales Incertae Sedis|Acidibacterub gamma proteobacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales|Xanthomonadales Incertae Sedis|Acidibacter,46,0,0,0,2,0,82,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales|Xanthomonadales Incertae Sedis|Steroidobacter,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales|Xanthomonadales Incertae Sedisubub,0,0,51,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|XanthomonadalesubAmtAmt,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadalesububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadalesubub gamma proteobacteriumub gamma proteobacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadalesubub proteobacteriumub proteobacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadalesub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales,0,3,56,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria|Gammaproteobacteria,0,2,0,0,0,0,0,0,0,0,0,0
+Bacteria|Proteobacteria,12,46,33,0,0,0,0,0,0,18,0,0
+Bacteria|SR1 Absconditabacteriaub candidate division SR1 bacteriumub candidate division SR1 bacteriumub candidate division SR1 bacteriumub candidate division SR1 bacteriumub candidate division SR1 bacterium,0,0,11,0,0,0,0,0,0,0,0,0
+Bacteria|Saccharibacteriaububububub,0,46,0,0,0,0,0,0,0,0,0,0
+Bacteria|Saccharibacteriaub soil bacteriumub soil bacteriumub soil bacteriumub soil bacteriumub soil bacterium,15,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Saccharibacteria,34,0,0,0,0,0,20,10,0,0,0,0
+Bacteria|Spirochaetae|Spirochaetes|Spirochaetales|Spirochaetaceae|Spirochaeta 2,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|TM6 Dependentiaeububububub,106,0,0,0,0,0,0,0,0,0,0,48
+Bacteria|TM6 Dependentiaeub soil bacteriumub soil bacteriumub soil bacteriumub soil bacteriumub soil bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|TM6 Dependentiae,6,0,0,0,0,0,0,0,0,0,0,2
+Bacteria|Tectomicrobiaububububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Tectomicrobia,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Verrucomicrobia|OPB35 soil groupAmtAmtAmtAmt,0,0,2,0,0,0,0,0,0,0,0,0
+Bacteria|Verrucomicrobia|OPB35 soil group|Unknown Order|Unknown Family|Pedosphaeraub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Verrucomicrobia|OPB35 soil groupub Verrucomicrobia bacteriumub Verrucomicrobia bacteriumub Verrucomicrobia bacteriumub Verrucomicrobia bacterium,0,0,71,0,0,0,0,0,0,0,89,0
+Bacteria|Verrucomicrobia|OPB35 soil groupub Verrucomicrobia subdivision 3 bacteriumub Verrucomicrobia subdivision 3 bacteriumub Verrucomicrobia subdivision 3 bacteriumub Verrucomicrobia subdivision 3 bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Verrucomicrobia|OPB35 soil groupubububub,0,0,53,0,0,0,0,0,0,0,0,0
+Bacteria|Verrucomicrobia|OPB35 soil groupub soil bacteriumub soil bacteriumub soil bacteriumub soil bacterium,0,88,74,0,0,132,0,0,0,0,0,0
+Bacteria|Verrucomicrobia|OPB35 soil group,36,0,0,58,0,0,0,90,12,0,52,111
+Bacteria|Verrucomicrobia|Opitutae|Opitutales|Opitutaceae|Opitutusub,0,0,115,0,0,0,0,0,0,0,0,0
+Bacteria|Verrucomicrobia|Opitutae|Opitutales|Opitutaceae|Opitutus,88,57,0,29,36,0,34,143,145,20,0,0
+Bacteria|Verrucomicrobia|S-BQ2-57 soil groupubububub,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Verrucomicrobia|Spartobacteria|Chthoniobacterales|Chthoniobacteraceae|Chthoniobacterub,0,0,0,0,0,0,0,0,0,64,108,0
+Bacteria|Verrucomicrobia|Spartobacteria|Chthoniobacterales|Chthoniobacteraceae|Chthoniobacter,0,17,0,0,0,0,0,0,0,38,0,0
+Bacteria|Verrucomicrobia|Spartobacteria|Chthoniobacterales|DA101 soil groupub Prosthecobacter sp.ub Prosthecobacter sp.,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Verrucomicrobia|Spartobacteria|Chthoniobacterales|DA101 soil groupub Spartobacteria bacteriumub Spartobacteria bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Verrucomicrobia|Spartobacteria|Chthoniobacterales|DA101 soil groupub Verrucomicrobia bacteriumub Verrucomicrobia bacterium,0,49,132,0,0,100,42,0,125,0,208,8
+Bacteria|Verrucomicrobia|Spartobacteria|Chthoniobacterales|DA101 soil groupub soil bacteriumub soil bacterium,0,0,0,0,0,0,0,0,0,0,0,3
+Bacteria|Verrucomicrobia|Spartobacteria|Chthoniobacterales|DA101 soil group,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Verrucomicrobia|Spartobacteria|Chthoniobacterales|Xiphinematobacteraceae|Candidatus Xiphinematobacterub Candidatus Xiphinematobacter sp.,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Verrucomicrobia|Verrucomicrobia Incertae Sedis|Unknown Order|Unknown Family|Candidatus Methylacidiphilumub,44,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Verrucomicrobiaceaeubub Verrucomicrobia bacterium,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales|Verrucomicrobiaceaeubub sludge bacterium A21,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|Verrucomicrobia|Verrucomicrobiae|Verrucomicrobiales,0,0,0,0,0,0,4,0,0,0,0,0
+Bacteria|Verrucomicrobia|WCHB1-41ub verrucomicrobium DEV045ub verrucomicrobium DEV045ub verrucomicrobium DEV045ub verrucomicrobium DEV045,0,0,0,0,0,0,0,0,0,0,0,0
+Bacteria|WS2ub soil bacteriumub soil bacteriumub soil bacteriumub soil bacteriumub soil bacterium,0,0,0,0,0,0,0,38,0,0,0,0
+Bacteria,320,104,62,76,33,90,361,334,96,172,282,10
+Unassigned,0,0,0,0,0,0,0,0,0,0,0,0
