@@ -1,0 +1,7 @@
+#This is completed on Hipergator
+
+module load lefse
+
+format_input.py lefseL2.txt lefseL2.in -c 2 -s 1 -u 3 -o 1000000
+run_lefse.py lefseL2.in lefseL2.res -l 5.0
+plot_res.py lefseL2.res lefseL1.png
