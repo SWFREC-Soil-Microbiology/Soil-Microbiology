@@ -3,7 +3,7 @@ Support codes for the bioinformatics projects at SWFREC-University of Florida
 
 ## Workshop Sep 2018
 ### Walkthrough notebooks
-* [System preparation with Hipergator](https://andreanuzzo.github.io/Strausslab/Preparation.nb.html)
+* [System preparation with Hipergator](https://andreanuzzo.github.io/Strausslab/Preparation.nb.html) 
 
 * [Qiime2 walkthrough: 16S, ITS and merged kingdoms](https://swfrec-soil-microbiology.github.io/Soil-Microbiology/QIIME2_Walkthrough.html)
 
