@@ -1242,7 +1242,8 @@ Treatments with the same letter are not significantly different.</code></pre>
 <!-- rnb-chunk-begin -->
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShwaHlsb3NlcSlcbmxpYnJhcnkodmVnYW4pXG5gYGAifQ== -->
 <pre class="r"><code>library(phyloseq)
-library(vegan)</code></pre>
+library(vegan)
+library(ape)</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-output-begin eyJkYXRhIjoiTG9hZGluZyByZXF1aXJlZCBwYWNrYWdlOiBwZXJtdXRlXG5Mb2FkaW5nIHJlcXVpcmVkIHBhY2thZ2U6IGxhdHRpY2VcblRoaXMgaXMgdmVnYW4gMi41LTJcbiJ9 -->
 <pre><code>Loading required package: permute
@@ -1264,53 +1265,43 @@ load_package <- function(p) {
 invisible(lapply(c(p1,p2), load_package));
 </code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShhcGUpXG5saWJyYXJ5KGR1bW1pZXMpXG5gYGAifQ== -->
-<pre class="r"><code>library(ape)
-library(dummies)</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiZHVtbWllcy0xLjUuNiBwcm92aWRlZCBieSBEZWNpc2lvbiBQYXR0ZXJuc1xuIn0= -->
-<pre><code>dummies-1.5.6 provided by Decision Patterns</code></pre>
-<!-- rnb-output-end -->
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuI0ZpbGUgUGF0aHNcbmJpb21fcGF0aCA8LSBmaWxlLnBhdGgoJ21lcmdlZC9iaW9tL3RhYmxlX3dvX2NobF9taXQuYmlvbScpXG50cmVlX3BhdGggPC0gZmlsZS5wYXRoKCdtZXJnZWQvYmlvbS90cmVlLm53aycpXG5ERVNFcTJfcGF0aCA8LSBmaWxlLnBhdGgoJ21lcmdlZC9iaW9tL0RFU2VxMl93X3RheC5iaW9tJylcbm1hcF9wYXRoIDwtIGZpbGUucGF0aCgnbWFwcGluZ3NfTERBLnR4dCcpXG4jSW1wb3J0IHRvIHBoeWxvc2VxIHRhYmxlIGFuZCBtZXJnZSBpbnRvIHBoeWxvc2VxIG9iamVjdHNcbnRhYmxlIDwtIGltcG9ydF9iaW9tKEJJT01maWxlbmFtZSA9IGJpb21fcGF0aCxcbiAgICAgICAgICAgICAgICAgICAgICAjcmVmc2VxZmlsZW5hbWUgPSByZXBzZXFmaWxlLFxuICAgICAgICAgICAgICAgICAgICAgIHBhcnNlRnVuY3Rpb24gPSBwYXJzZV90YXhvbm9teV9kZWZhdWx0LCBcbiAgICAgICAgICAgICAgICAgICAgICBwYXJhbGxlbCA9IFQpXG5gYGAifQ== -->
-<pre class="r"><code>#File Paths
-biom_path &lt;- file.path('merged/biom/table_wo_chl_mit.biom')
-tree_path &lt;- file.path('merged/biom/tree.nwk')
-DESEq2_path &lt;- file.path('merged/biom/DESeq2_w_tax.biom')
-map_path &lt;- file.path('mappings_LDA.txt')
-#Import to phyloseq table and merge into phyloseq objects
-table &lt;- import_biom(BIOMfilename = biom_path,
-                      #refseqfilename = repseqfile,
-                      parseFunction = parse_taxonomy_default, 
-                      parallel = T)</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiaW5wdXQgc3RyaW5nIDEgaXMgaW52YWxpZCBpbiB0aGlzIGxvY2FsZVxuIn0= -->
-<pre><code>input string 1 is invalid in this locale</code></pre>
-<!-- rnb-output-end -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxudGF4X3RhYmxlKHRhYmxlKSA8LXRheF90YWJsZSh0YWJsZSlbLDE6N11cbkRFU0VxMi50YWJsZSA8LSBpbXBvcnRfYmlvbShCSU9NZmlsZW5hbWUgPSBERVNFcTJfcGF0aCxcbiAgICAgICAgICAgICAgICAgICAgICAjcmVmc2VxZmlsZW5hbWUgPSByZXBzZXFmaWxlLFxuICAgICAgICAgICAgICAgICAgICAgIHBhcnNlRnVuY3Rpb24gPSBwYXJzZV90YXhvbm9teV9kZWZhdWx0LCBcbiAgICAgICAgICAgICAgICAgICAgICBwYXJhbGxlbCA9IFQpXG5gYGAifQ== -->
-<pre class="r"><code>tax_table(table) &lt;-tax_table(table)[,1:7]
-DESEq2.table &lt;- import_biom(BIOMfilename = DESEq2_path,
-                      #refseqfilename = repseqfile,
-                      parseFunction = parse_taxonomy_default, 
-                      parallel = T)</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiaW5wdXQgc3RyaW5nIDEgaXMgaW52YWxpZCBpbiB0aGlzIGxvY2FsZVxuIn0= -->
-<pre><code>input string 1 is invalid in this locale</code></pre>
-<!-- rnb-output-end -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxudGF4X3RhYmxlKERFU0VxMi50YWJsZSkgPC10YXhfdGFibGUoREVTRXEyLnRhYmxlKVssMTo3XVxubWV0YWRhdGEgPC0gaW1wb3J0X3FpaW1lX3NhbXBsZV9kYXRhKG1hcF9wYXRoKVxudHJlZSA8LSByZWFkX3RyZWUodHJlZV9wYXRoKVxucGh5bG9iaiA8LSBtZXJnZV9waHlsb3NlcSh0YWJsZSwgbWV0YWRhdGEsIHRyZWUpXG5ERVNFcTIucGh5bG9iaiA8LSBtZXJnZV9waHlsb3NlcShERVNFcTIudGFibGUsIG1ldGFkYXRhLCB0cmVlKVxuI0FkanVzdCB0YXhvbm9teSBuYW1lcyAodG8gaGFybW9uaXplIGJldHdlbiBVTklURSBhbmQgU0lMVkEgZGF0YWJhc2VzKVxudGF4X3RhYmxlKHBoeWxvYmopIDwtIGdzdWIoXCIuKl9fXCIsIFwiXCIsIHRheF90YWJsZShwaHlsb2JqKSlcbmNvbG5hbWVzKHRheF90YWJsZShwaHlsb2JqKSkgPC0gYyhcIktpbmdkb21cIiwgXCJQaHlsdW1cIiwgXCJDbGFzc1wiLCBcbiAgICAgICAgICAgICAgICAgICAgXCJPcmRlclwiLCBcIkZhbWlseVwiLCBcIkdlbnVzXCIsIFwiU3BlY2llc1wiKVxudGF4X3RhYmxlKERFU0VxMi5waHlsb2JqKSA8LSBnc3ViKFwiLipfX1wiLCBcIlwiLCB0YXhfdGFibGUoREVTRXEyLnBoeWxvYmopKVxuY29sbmFtZXModGF4X3RhYmxlKERFU0VxMi5waHlsb2JqKSkgPC0gYyhcIktpbmdkb21cIiwgXCJQaHlsdW1cIiwgXCJDbGFzc1wiLCBcbiAgICAgICAgICAgICAgICAgICAgXCJPcmRlclwiLCBcIkZhbWlseVwiLCBcIkdlbnVzXCIsIFwiU3BlY2llc1wiKVxuI0xvZy10cmFuc2Zvcm0gc2FtcGxlIGNvdW50cyAoaWYgbmVlZGVkKVxucHNsb2cgPC0gdHJhbnNmb3JtX3NhbXBsZV9jb3VudHMocGh5bG9iaixmdW5jdGlvbih4KXtsb2coMSArIHgpfSlcbmBgYCJ9 -->
-<pre class="r"><code>tax_table(DESEq2.table) &lt;-tax_table(DESEq2.table)[,1:7]
-metadata &lt;- import_qiime_sample_data(map_path)
-tree &lt;- read_tree(tree_path)
-phylobj &lt;- merge_phyloseq(table, metadata, tree)
-DESEq2.phylobj &lt;- merge_phyloseq(DESEq2.table, metadata, tree)
-#Adjust taxonomy names (to harmonize betwen UNITE and SILVA databases)
-tax_table(phylobj) &lt;- gsub(&quot;.*__&quot;, &quot;&quot;, tax_table(phylobj))
-colnames(tax_table(phylobj)) &lt;- c(&quot;Kingdom&quot;, &quot;Phylum&quot;, &quot;Class&quot;, 
-                    &quot;Order&quot;, &quot;Family&quot;, &quot;Genus&quot;, &quot;Species&quot;)
-tax_table(DESEq2.phylobj) &lt;- gsub(&quot;.*__&quot;, &quot;&quot;, tax_table(DESEq2.phylobj))
-colnames(tax_table(DESEq2.phylobj)) &lt;- c(&quot;Kingdom&quot;, &quot;Phylum&quot;, &quot;Class&quot;, 
-                    &quot;Order&quot;, &quot;Family&quot;, &quot;Genus&quot;, &quot;Species&quot;)
-#Log-transform sample counts (if needed)
-pslog &lt;- transform_sample_counts(phylobj,function(x){log(1 + x)})</code></pre>
+<pre class="r"><code># Make deseq object
+metadata <- read_delim("path to /metadata.txt", show_col_types = FALSE)
+metadata <- as.data.frame(metadata)
+# read in otu/asv file - filtered feature table created during 2_biom_and_beyond
+# remove # Constructed from biom file from tsv file
+otu <- read_tsv("path to/feature-table.tsv", show_col_types = FALSE)
+otu <- as.data.frame(otu)
+# turn first column into rownames
+rownames(otu) <- otu$`#OTU ID`
+# removed column in order to match meta data dimensions
+otu <- otu %>% select(-`#OTU ID`)
+
+# read in taxonomy.qza file from script 4
+taxonomy <-read_qza("path to /taxonomy.qza")
+# this function parses taxonmy
+taxonomy<-parse_taxonomy(taxonomy$data)
+
+# files must be converted into an acceptable format in order to make the phyloseq object 
+OTU = otu_table(as.matrix(otu), taxa_are_rows = TRUE) 
+taxonomy = tax_table(as.matrix(taxonomy))
+SAMPLE <- sample_data(metadata)
+head(SAMPLE, n=10)
+head(OTU, n=10)
+head(taxonomy, n=10)
+TREE = read_tree("path to/tree.nwk")
+
+#check sample names before merging into phyloseq object
+sample_names(OTU)
+sample_names(SAMPLE) <- metadata$sampleid
+
+#make your object
+ps <- phyloseq(OTU, taxonomy, SAMPLE, TREE)
+# log transform sample counts (if needed)
+pslog <- transform_sample_counts(ps,function(x){log(1 + x)}) 
+
+</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
@@ -1320,16 +1311,13 @@ pslog &lt;- transform_sample_counts(phylobj,function(x){log(1 + x)})</code></pre
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucGh5bG9nbG9tIDwtIHRheF9nbG9tKHBoeWxvYmosICdQaHlsdW0nKVxucGh5bG9yZWwgPC0gdHJhbnNmb3JtX3NhbXBsZV9jb3VudHMocGh5bG9nbG9tLCBmdW5jdGlvbih4KXsxMDAqeC9zdW0oeCl9KVxucGh5bG9yZWwgJT4lXG4gIGZpbHRlcl90YXhhKGZ1bmN0aW9uKHgpeyBtZWFuKHgpID4gMX0sIFRSVUUpICU+JVxuICBwc21lbHQoKSU+JVxuICBncm91cF9ieShCaW9zdGltdWxhbnQsIFRpbWVQb2ludCwgUGh5bHVtKSAlPiVcbiAgc3VtbWFyaXplKG1lYW49bWVhbihBYnVuZGFuY2UpKSAlPiVcbiAgZ2dwbG90KCkgK1xuICBhZXMoeD1CaW9zdGltdWxhbnQsIHk9bWVhbiwgZmlsbD1QaHlsdW0sIGNvbG9yPVBoeWx1bSkgK1xuICBnZW9tX2JhcihzdGF0PSdpZGVudGl0eScpICtcbiAgZmFjZXRfZ3JpZCguflRpbWVQb2ludCkgK1xuICB5bGFiKCdSZWxhdGl2ZSBhYnVuZGFuY2UnKSArXG4gIHRoZW1lX2lncmF5KCkgK1xuICB0aGVtZShheGlzLnRleHQueCAgPSBlbGVtZW50X3RleHQoYW5nbGU9OTAsIHZqdXN0PTAuNSkpICtcbiAgc2NhbGVfZmlsbF9wYW5kZXIoKSArIHNjYWxlX2NvbG9yX3BhbmRlcigpXG5gYGAifQ== -->
-<pre class="r"><code>phyloglom &lt;- tax_glom(phylobj, 'Phylum')
-phylorel &lt;- transform_sample_counts(phyloglom, function(x){100*x/sum(x)})
-phylorel %&gt;%
-  filter_taxa(function(x){ mean(x) &gt; 1}, TRUE) %&gt;%
-  psmelt()%&gt;%
-  group_by(Biostimulant, TimePoint, Phylum) %&gt;%
-  summarize(mean=mean(Abundance)) %&gt;%
-  ggplot() +
-  aes(x=Biostimulant, y=mean, fill=Phylum, color=Phylum) +
-  geom_bar(stat='identity') +
+<pre class="r"><code>phyloglom &lt;- tax_glom(ps, 'Phylum')
+phylorel <- transform_sample_counts(phyloglom, function(x){100*x/sum(x)})
+phylorelFilter <- phylorel %>% filter_taxa(function(x){ mean(x) > 1}, TRUE) %>%
+  psmelt()
+  
+ggplot(phylorelFilter,aes(x = Biostimulant, y = Abundance, fill = Phylum)) +
+  geom_bar(stat='identity', aes(fill=Phylum), position = "fill") +
   facet_grid(.~TimePoint) +
   ylab('Relative abundance') +
   theme_igray() +
@@ -1514,7 +1502,7 @@ rarefying sample B2ST3-6</code></pre>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuUENvQS5icmF5Lm9yZDwtIG9yZGluYXRlKERFU0VxMi5waHlsb2JqLCBcIlBDb0FcIiwgZGlzdGFuY2UgPSBcImJyYXlcIilcblBDb0EuYnJheS5wbG90IDwtIHBsb3Rfb3JkaW5hdGlvbihwaHlzZXEgPSBwc2xvZyxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvcmRpbmF0aW9uID0gUENvQS5icmF5Lm9yZCxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IFwiQmlvc3RpbXVsYW50XCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2hhcGUgPSBcIlRpbWVQb2ludFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRpdGxlID0gXCJQQ29BIChCcmF5LUN1cnRpcyBkaXN0YW5jZXMpXCIpXG5QQ29BLmJyYXkucGxvdCArZ2VvbV9wb2ludChzaXplPTMpICsgc2NhbGVfY29sb3JfcGFuZGVyKClcbmBgYCJ9 -->
-<pre class="r"><code>PCoA.bray.ord&lt;- ordinate(DESEq2.phylobj, &quot;PCoA&quot;, distance = &quot;bray&quot;)
+<pre class="r"><code>PCoA.bray.ord&lt;- ordinate(ps, &quot;PCoA&quot;, distance = &quot;bray&quot;)
 PCoA.bray.plot &lt;- plot_ordination(physeq = pslog,
                                         ordination = PCoA.bray.ord,
                                         color = &quot;Biostimulant&quot;,
@@ -1587,7 +1575,7 @@ p</code></pre>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuTk1EU19icmF5X2IxIDwtIG9yZGluYXRlKERFU0VxMi5waHlsb2JqLCBtZXRob2QgPSBcIk5NRFNcIiwgZGlzdGFuY2UgPSBcImJyYXlcIilcbmBgYCJ9 -->
-<pre class="r"><code>NMDS_bray_b1 &lt;- ordinate(DESEq2.phylobj, method = &quot;NMDS&quot;, distance = &quot;bray&quot;)</code></pre>
+<pre class="r"><code>NMDS_bray_b1 &lt;- ordinate(ps, method = &quot;NMDS&quot;, distance = &quot;bray&quot;)</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-output-begin eyJkYXRhIjoiV2lzY29uc2luIGRvdWJsZSBzdGFuZGFyZGl6YXRpb25cblJ1biAwIHN0cmVzcyAwLjAzNTUwNTMzIFxuUnVuIDEgc3RyZXNzIDAuMDM3MDAyNjggXG5SdW4gMiBzdHJlc3MgMC4wMzY0OTM4NyBcblJ1biAzIHN0cmVzcyAwLjA2MTA0MDQxIFxuUnVuIDQgc3RyZXNzIDAuMDUwNTMzMTggXG5SdW4gNSBzdHJlc3MgMC4wMzYzNjYxMyBcblJ1biA2IHN0cmVzcyAwLjAzNjM1NjA1IFxuUnVuIDcgc3RyZXNzIDAuMDUxODk4NTQgXG5SdW4gOCBzdHJlc3MgMC4wMzYxNDAzMiBcblJ1biA5IHN0cmVzcyAwLjAzNjQ5MzY1IFxuUnVuIDEwIHN0cmVzcyAwLjAzNjc4Njk0IFxuUnVuIDExIHN0cmVzcyAwLjA1MDAyMjAyIFxuUnVuIDEyIHN0cmVzcyAwLjA1MjEwNTEzIFxuUnVuIDEzIHN0cmVzcyAwLjAzNjU4NzEyIFxuUnVuIDE0IHN0cmVzcyAwLjAzNjY0NzYgXG5SdW4gMTUgc3RyZXNzIDAuMDUwMzg4NzQgXG5SdW4gMTYgc3RyZXNzIDAuMDM2MjMzNjcgXG5SdW4gMTcgc3RyZXNzIDAuMDUwNTk1ODMgXG5SdW4gMTggc3RyZXNzIDAuMDQ3NzUyNjcgXG5SdW4gMTkgc3RyZXNzIDAuMDM2MzcyNzQgXG5SdW4gMjAgc3RyZXNzIDAuMDM2MTg3MDYgXG4qKiogTm8gY29udmVyZ2VuY2UgLS0gbW9ub01EUyBzdG9wcGluZyBjcml0ZXJpYTpcbiAgICAxNTogbm8uIG9mIGl0ZXJhdGlvbnMgPj0gbWF4aXRcbiAgICAgNTogc3RyZXNzIHJhdGlvID4gc3JhdG1heFxuIn0= -->
 <pre><code>Wisconsin double standardization
@@ -1641,14 +1629,15 @@ plot_NMDS_bray_b1 + ggtitle(&quot;NMDS using Bray-Curtis distances&quot;) + scal
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuREVTRXEyLmRmID0gYXMoc2FtcGxlX2RhdGEoREVTRXEyLnBoeWxvYmopLCBcImRhdGEuZnJhbWVcIilcbkRFU0VxMi5kaXN0YnJheSA9IGRpc3RhbmNlKERFU0VxMi5waHlsb2JqLCBcImJyYXlcIilcbmFkb25pcyhERVNFcTIuZGlzdGJyYXkgfiBUaW1lUG9pbnQqQmlvc3RpbXVsYW50LCBERVNFcTIuZGYpXG5gYGAifQ== -->
-<pre class="r"><code>DESEq2.df = as(sample_data(DESEq2.phylobj), &quot;data.frame&quot;)
-DESEq2.distbray = distance(DESEq2.phylobj, &quot;bray&quot;)
-adonis(DESEq2.distbray ~ TimePoint*Biostimulant, DESEq2.df)</code></pre>
+<pre class="r"><code>ps.distunifrac = distance(pslog, "unifrac", weighted=TRUE)
+ps_df <- as(sample_data(pslog), "data.frame")
+adonis2(formula = ps.distunifrac ~ TimePoint * Biostimulant, data = ps_df)
+</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-output-begin eyJkYXRhIjoiXG5DYWxsOlxuYWRvbmlzKGZvcm11bGEgPSBERVNFcTIuZGlzdGJyYXkgfiBUaW1lUG9pbnQgKiBCaW9zdGltdWxhbnQsICAgICAgZGF0YSA9IERFU0VxMi5kZikgXG5cblBlcm11dGF0aW9uOiBmcmVlXG5OdW1iZXIgb2YgcGVybXV0YXRpb25zOiA5OTlcblxuVGVybXMgYWRkZWQgc2VxdWVudGlhbGx5IChmaXJzdCB0byBsYXN0KVxuXG4gICAgICAgICAgICAgICAgICAgICAgICBEZiBTdW1zT2ZTcXNcblRpbWVQb2ludCAgICAgICAgICAgICAgICAzICAwLjAyNDgzOFxuQmlvc3RpbXVsYW50ICAgICAgICAgICAgIDQgIDAuMDA1MzE2XG5UaW1lUG9pbnQ6Qmlvc3RpbXVsYW50ICAxMiAgMC4wMTgwODZcblJlc2lkdWFscyAgICAgICAgICAgICAgMTAwICAwLjE0Mjc5OFxuVG90YWwgICAgICAgICAgICAgICAgICAxMTkgIDAuMTkxMDM4XG4gICAgICAgICAgICAgICAgICAgICAgICAgTWVhblNxcyBGLk1vZGVsXG5UaW1lUG9pbnQgICAgICAgICAgICAgIDAuMDA4Mjc5NSAgNS43OTgwXG5CaW9zdGltdWxhbnQgICAgICAgICAgIDAuMDAxMzI4OSAgMC45MzA2XG5UaW1lUG9pbnQ6Qmlvc3RpbXVsYW50IDAuMDAxNTA3MiAgMS4wNTU1XG5SZXNpZHVhbHMgICAgICAgICAgICAgIDAuMDAxNDI4MCAgICAgICAgXG5Ub3RhbCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgUjIgUHIoPkYpICAgIFxuVGltZVBvaW50ICAgICAgICAgICAgICAwLjEzMDAyICAwLjAwMSAqKipcbkJpb3N0aW11bGFudCAgICAgICAgICAgMC4wMjc4MyAgMC43MDQgICAgXG5UaW1lUG9pbnQ6Qmlvc3RpbXVsYW50IDAuMDk0NjcgIDAuMjIxICAgIFxuUmVzaWR1YWxzICAgICAgICAgICAgICAwLjc0NzQ4ICAgICAgICAgICBcblRvdGFsICAgICAgICAgICAgICAgICAgMS4wMDAwMCAgICAgICAgICAgXG4tLS1cblNpZ25pZi4gY29kZXM6ICBcbjAg4oCYKioq4oCZIDAuMDAxIOKAmCoq4oCZIDAuMDEg4oCYKuKAmSAwLjA1IOKAmC7igJkgMC4xIOKAmCDigJkgMVxuIn0= -->
 <pre><code>
 Call:
-adonis(formula = DESEq2.distbray ~ TimePoint * Biostimulant,      data = DESEq2.df) 
+adonis(formula = ps.distunifrac ~ TimePoint * Biostimulant,      data = ps_df) 
 
 Permutation: free
 Number of permutations: 999
