@@ -529,7 +529,7 @@ date;hostname;pwd
 ################################################################################
 
 # ----------------Load Modules--------------------
-module load qiime2/2024.2
+module load qiime2
 
 # ----------------Housekeeping--------------------
 rm -r features
@@ -551,11 +551,12 @@ qiime dada2 denoise-paired \
   --p-trunc-len-r \   #INSERT NUMBER OF BASES BEFORE THE FORWARD SLASH AND DELETE THIS INSTRUCTION
   --o-table table.qza \
   --o-denoising-stats stats.qza \
-  --o-representative-sequences rep-seqs.qza 
+  --o-representative-sequences rep-seqs.qza \
+  --o-base-transition-stats base-transition-stats.qza \
   --p-n-threads $SLURM_CPUS_PER_TASK \
   --verbose
 
-module unload qiime2/2024.2
+module unload qiime2
 
 date</code></pre>
 <!-- rnb-source-end -->
@@ -609,7 +610,7 @@ date;hostname;pwd
 ################################################################################
 
 # ----------------Load Modules--------------------
-module load qiime2/2024.2
+module load qiime2
 
 # Housekeeping:
 cd features
@@ -631,7 +632,7 @@ qiime feature-table tabulate-seqs \
   --verbose
 
 # Unload modules:
-module unload qiime2/2024.2
+module unload qiime2
 
 date</code></pre>
 <!-- rnb-source-end -->
@@ -1676,7 +1677,7 @@ date;hostname;pwd
 ##################################################################################
 
 # ----------------Load Modules--------------------
-module load qiime2/2024.2
+module load qiime2
 
 # ----------------Housekeeping--------------------
 rm -r table
